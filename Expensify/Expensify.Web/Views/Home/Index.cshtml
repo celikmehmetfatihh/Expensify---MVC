@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container py-5">
+    <!-- Display success or error messages -->
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <!-- Welcome Section -->
+    <div class="text-center mb-5">
+        <h1>Welcome to Expensify</h1>
+        <p>Your one-stop solution for managing expenses efficiently.</p>
+    </div>
+
+    <!-- Features Section -->
+    <div class="row text-center mb-5">
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Track Expenses</h5>
+                    <p class="card-text">Easily submit and track your expenses from anywhere.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Manage Approvals</h5>
+                    <p class="card-text">Managers can review and approve expense reports with just a few clicks.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Secure Payments</h5>
+                    <p class="card-text">Accountants can ensure timely and secure payments for approved expenses.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+
+    <!-- Footer Section -->
+    <footer class="text-center mt-5">
+        <p>&copy; @DateTime.Now.Year Expensify. All rights reserved.</p>
+    </footer>
+</div>

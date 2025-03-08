@@ -1,0 +1,78 @@
+﻿@model IEnumerable<Expensify.Web.Models.ViewModels.EmployeeExpenseSummary>
+
+<h2 class="mb-4 text-center">Employee Expense Summary</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 offset-md-1">
+            <div class="card">
+                <div class="card-header text-white bg-primary">
+                    Expense Summary Chart
+                </div>
+                <div class="card-body">
+                    <canvas id="employeeExpenseChart" width="400" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Include Chart.js library from CDN(Content Delivery Network) -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    var ctx = document.getElementById('employeeExpenseChart').getContext('2d');
+    var employeeExpenseChart = new Chart(ctx, {
+        // Bar chart
+        type: 'bar',
+        data: {
+            // Employee names as labels onabort the X-axis
+            labels: @Html.Raw(Json.Serialize(Model.Select(e => e.EmployeeName))),
+            datasets: [{
+                label: 'Total Expenses',
+                data: @Html.Raw(Json.Serialize(Model.Select(e => e.TotalExpenses))),
+                backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1,
+                yAxisID: 'y'
+            }, {
+                label: 'Expense Form Count',
+                data: @Html.Raw(Json.Serialize(Model.Select(e => e.ExpenseFormCount))),
+                backgroundColor: 'rgba(255, 99, 132, 0.6)',
+                borderColor: 'rgba(255, 99, 132, 1)',
+                borderWidth: 1,
+                // use secondary y axis
+                yAxisID: 'y1'
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    position: 'left',
+                    title: {
+                        display: true,
+                        text: 'Total Expenses'
+                    }
+                },
+                y1: {
+                    beginAtZero: true,
+                    position: 'right',
+                    title: {
+                        display: true,
+                        text: 'Expense Form Count'
+                    },
+                    grid: {
+                        drawOnChartArea: false
+                    }
+                }
+            },
+            plugins: {
+                legend: {
+                    display: true,
+                    position: 'top'
+                }
+            }
+        }
+    });
+</script>

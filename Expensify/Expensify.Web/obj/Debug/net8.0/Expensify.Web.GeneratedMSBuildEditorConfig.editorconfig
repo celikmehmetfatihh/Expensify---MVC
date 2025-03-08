@@ -1,0 +1,95 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Expensify.Web
+build_property.RootNamespace = Expensify.Web
+build_property.ProjectDir = C:\Users\fatih.celik\OneDrive - VERIPARK\Desktop\Expensify\Expensify\Expensify.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\fatih.celik\OneDrive - VERIPARK\Desktop\Expensify\Expensify\Expensify.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/fatih.celik/OneDrive - VERIPARK/Desktop/Expensify/Expensify/Expensify.Web/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih.celik/OneDrive - VERIPARK/Desktop/Expensify/Expensify/Expensify.Web/Views/Admin/EmployeeExpenseSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRW1wbG95ZWVFeHBlbnNlU3VtbWFyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih.celik/OneDrive - VERIPARK/Desktop/Expensify/Expensify/Expensify.Web/Views/Admin/ExpenseFormHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRXhwZW5zZUZvcm1IaXN0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih.celik/OneDrive - VERIPARK/Desktop/Expensify/Expensify/Expensify.Web/Views/Admin/ExpenseTypeSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRXhwZW5zZVR5cGVTdW1tYXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih.celik/OneDrive - VERIPARK/Desktop/Expensify/Expensify/Expensify.Web/Views/ExpenseForms/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZUZvcm1zXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih.celik/OneDrive - VERIPARK/Desktop/Expensify/Expensify/Expensify.Web/Views/ExpenseForms/Approval.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZUZvcm1zXEFwcHJvdmFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih.celik/OneDrive - VERIPARK/Desktop/Expensify/Expensify/Expensify.Web/Views/ExpenseForms/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZUZvcm1zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih.celik/OneDrive - VERIPARK/Desktop/Expensify/Expensify/Expensify.Web/Views/ExpenseForms/ExpensesToBePaid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZUZvcm1zXEV4cGVuc2VzVG9CZVBhaWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih.celik/OneDrive - VERIPARK/Desktop/Expensify/Expensify/Expensify.Web/Views/ExpenseForms/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZUZvcm1zXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih.celik/OneDrive - VERIPARK/Desktop/Expensify/Expensify/Expensify.Web/Views/ExpenseForms/PendingApproval.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZUZvcm1zXFBlbmRpbmdBcHByb3ZhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih.celik/OneDrive - VERIPARK/Desktop/Expensify/Expensify/Expensify.Web/Views/ExpenseForms/PendingPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZUZvcm1zXFBlbmRpbmdQYXltZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih.celik/OneDrive - VERIPARK/Desktop/Expensify/Expensify/Expensify.Web/Views/ExpenseForms/ViewExpenseFormDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZUZvcm1zXFZpZXdFeHBlbnNlRm9ybURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih.celik/OneDrive - VERIPARK/Desktop/Expensify/Expensify/Expensify.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih.celik/OneDrive - VERIPARK/Desktop/Expensify/Expensify/Expensify.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih.celik/OneDrive - VERIPARK/Desktop/Expensify/Expensify/Expensify.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih.celik/OneDrive - VERIPARK/Desktop/Expensify/Expensify/Expensify.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih.celik/OneDrive - VERIPARK/Desktop/Expensify/Expensify/Expensify.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih.celik/OneDrive - VERIPARK/Desktop/Expensify/Expensify/Expensify.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih.celik/OneDrive - VERIPARK/Desktop/Expensify/Expensify/Expensify.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8jnu0zfg51

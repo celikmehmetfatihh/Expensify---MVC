@@ -1,0 +1,117 @@
+﻿@model Expensify.Web.Models.ViewModels.ExpenseFormFilterViewModel
+
+<h2 class="mb-4 text-center">Your Expense Forms</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success text-center" role="alert">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<!-- Search Form -->
+<form method="get" asp-action="List">
+    <div class="row mb-3">
+        <div class="col-md-2">
+            <label for="currency" class="form-label">Currency</label>
+            <select asp-for="CurrencyFilter" class="form-select" id="currency">
+                <option value="">Select Currency</option>
+                <option value="TL">TL</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="PKR">PKR</option>
+                <option value="INR">INR</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <label for="fromDate" class="form-label">From Date</label>
+            <input type="date" asp-for="FromDate" class="form-control" id="fromDate" />
+        </div>
+        <div class="col-md-2">
+            <label for="toDate" class="form-label">To Date</label>
+            <input type="date" asp-for="ToDate" class="form-control" id="toDate" />
+        </div>
+        <div class="col-md-2">
+            <label for="minAmount" class="form-label">Min Amount</label>
+            <input type="number" asp-for="MinAmount" class="form-control" id="minAmount" />
+        </div>
+        <div class="col-md-2">
+            <label for="maxAmount" class="form-label">Max Amount</label>
+            <input type="number" asp-for="MaxAmount" class="form-control" id="maxAmount" />
+        </div>
+        <div class="col-md-2">
+            <label for="status" class="form-label">Status</label>
+            <select asp-for="Status" class="form-select" id="status">
+                <option value="">All</option>
+                <option value="Approved">Approved</option>
+                <option value="Paid">Paid</option>
+                <option value="Rejected">Rejected</option>
+                <option value="Pending">Pending</option>
+            </select>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-md-12 text-center">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </div>
+</form>
+
+@if (Model.ExpenseForms == null || !Model.ExpenseForms.Any())
+{
+    <div class="alert alert-info text-center mt-5">
+        No expense forms found.
+    </div>
+}
+else
+{
+    <table class="table table-bordered table-hover mt-5">
+        <thead>
+            <tr>
+                <th>Submission Date</th>
+                <th>Status</th>
+                <th>Total Amount</th>
+                <th>Currency</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var expenseForm in Model.ExpenseForms)
+            {
+                <tr>
+                    <td>@expenseForm.SubmissionDate.ToString("MM/dd/yyyy")</td>
+                    <td>
+                        @if (expenseForm.IsApprovedByManager)
+                        {
+                            <span class="badge bg-success">Approved</span>
+                        }
+                        @if (expenseForm.IsPaidByAccountant)
+                        {
+                            <span class="badge bg-primary">Paid</span>
+                        }
+                        @if (expenseForm.IsRejectedByManager)
+                        {
+                            <span class="badge bg-danger">Rejected</span>
+                            <br />
+                            <small>Reason: @expenseForm.RejectionReason</small>
+                        }
+                        @if (!expenseForm.IsApprovedByManager && !expenseForm.IsRejectedByManager && !expenseForm.IsPaidByAccountant)
+                        {
+                            <span class="badge bg-warning">Pending</span>
+                        }
+                    </td>
+                    <td>@expenseForm.Expenses.Sum(e => e.Amount).ToString("C")</td>
+                    <td>@expenseForm.Currency</td>
+                    <td>
+                        <a href="@Url.Action("ViewExpenseFormDetails", "ExpenseForms", new { id = expenseForm.Id })" class="btn btn-info btn-sm">View Details</a>
+
+                        @if (!expenseForm.IsApprovedByManager || expenseForm.IsRejectedByManager)
+                        {
+                            <a href="@Url.Action("Edit", "ExpenseForms", new { id = expenseForm.Id })" class="btn btn-warning btn-sm">Edit</a>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

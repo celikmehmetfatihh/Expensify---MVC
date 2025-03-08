@@ -1,0 +1,459 @@
+2024-10-03 13:21:40.153 +03:00 [INF] User profile is available. Using 'C:\Users\fatih.celik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-03 13:21:40.395 +03:00 [INF] Now listening on: https://localhost:7189
+2024-10-03 13:21:40.397 +03:00 [INF] Now listening on: http://localhost:5289
+2024-10-03 13:21:40.421 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-03 13:21:40.424 +03:00 [INF] Hosting environment: Development
+2024-10-03 13:21:40.426 +03:00 [INF] Content root path: C:\Users\fatih.celik\OneDrive - VERIPARK\Desktop\Expensify\Expensify\Expensify.Web
+2024-10-03 13:21:41.052 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ - null null
+2024-10-03 13:21:42.142 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Expense'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-10-03 13:21:42.657 +03:00 [INF] Executed DbCommand (28ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-03 13:21:42.756 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-10-03 13:21:42.776 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-10-03 13:21:42.787 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-10-03 13:21:42.804 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-10-03 13:21:42.813 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-03 13:21:42.823 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Expensify.Web.Controllers.HomeController (Expensify.Web).
+2024-10-03 13:21:42.874 +03:00 [INF] Executing action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web) - Validation state: "Valid"
+2024-10-03 13:21:42.879 +03:00 [INF] Executed action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.7523ms.
+2024-10-03 13:21:42.887 +03:00 [INF] Executing ViewResult, running view Index.
+2024-10-03 13:21:42.960 +03:00 [INF] Executed ViewResult - view Index executed in 71.982ms.
+2024-10-03 13:21:42.966 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-03 13:21:42.966 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-03 13:21:42.966 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/Expensify.Web.styles.css?v=yPQhX02gm2I2RxIvdAfs7uoZUSiPOy6A6IwceaHca4M - null null
+2024-10-03 13:21:42.976 +03:00 [INF] Executed action Expensify.Web.Controllers.HomeController.Index (Expensify.Web) in 150.8637ms
+2024-10-03 13:21:42.990 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-03 13:21:43.002 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 28.3805ms
+2024-10-03 13:21:43.004 +03:00 [INF] The file /Expensify.Web.styles.css was not modified
+2024-10-03 13:21:43.011 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/Expensify.Web.styles.css?v=yPQhX02gm2I2RxIvdAfs7uoZUSiPOy6A6IwceaHca4M - 304 null text/css 44.2044ms
+2024-10-03 13:21:43.014 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ - 200 null text/html; charset=utf-8 1966.6541ms
+2024-10-03 13:21:43.035 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.2351ms
+2024-10-03 13:21:44.357 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7189/Account/Logout - application/x-www-form-urlencoded 225
+2024-10-03 13:21:44.385 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Logout (Expensify.Web)'
+2024-10-03 13:21:44.392 +03:00 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-03 13:21:44.410 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Logout (Expensify.Web) - Validation state: "Valid"
+2024-10-03 13:21:44.413 +03:00 [INF] User logged out.
+2024-10-03 13:21:44.418 +03:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-10-03 13:21:44.421 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-10-03 13:21:44.423 +03:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-10-03 13:21:44.425 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Logout (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 12.4824ms.
+2024-10-03 13:21:44.427 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2024-10-03 13:21:44.429 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Logout (Expensify.Web) in 33.5477ms
+2024-10-03 13:21:44.431 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Logout (Expensify.Web)'
+2024-10-03 13:21:44.433 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7189/Account/Logout - 302 0 null 76.4846ms
+2024-10-03 13:21:44.437 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ - null null
+2024-10-03 13:21:44.454 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-03 13:21:44.456 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Expensify.Web.Controllers.HomeController (Expensify.Web).
+2024-10-03 13:21:44.468 +03:00 [INF] Executing action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web) - Validation state: "Valid"
+2024-10-03 13:21:44.470 +03:00 [INF] Executed action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0516ms.
+2024-10-03 13:21:44.473 +03:00 [INF] Executing ViewResult, running view Index.
+2024-10-03 13:21:44.492 +03:00 [INF] Executed ViewResult - view Index executed in 19.5275ms.
+2024-10-03 13:21:44.497 +03:00 [INF] Executed action Expensify.Web.Controllers.HomeController.Index (Expensify.Web) in 38.3713ms
+2024-10-03 13:21:44.504 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-03 13:21:44.505 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-03 13:21:44.505 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-03 13:21:44.508 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ - 200 null text/html; charset=utf-8 70.3644ms
+2024-10-03 13:21:44.512 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.4939ms
+2024-10-03 13:21:44.557 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.6616ms
+2024-10-03 13:21:45.329 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/Account/Login - null null
+2024-10-03 13:21:45.349 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-03 13:21:45.353 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-03 13:21:45.365 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web) - Validation state: "Valid"
+2024-10-03 13:21:45.369 +03:00 [INF] Login page accessed.
+2024-10-03 13:21:45.372 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.367ms.
+2024-10-03 13:21:45.375 +03:00 [INF] Executing ViewResult, running view Login.
+2024-10-03 13:21:45.407 +03:00 [INF] Executed ViewResult - view Login executed in 32.8708ms.
+2024-10-03 13:21:45.410 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Login (Expensify.Web) in 54.6429ms
+2024-10-03 13:21:45.413 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-03 13:21:45.414 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-03 13:21:45.414 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-03 13:21:45.417 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/Account/Login - 200 null text/html; charset=utf-8 88.2016ms
+2024-10-03 13:21:45.424 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 10.333ms
+2024-10-03 13:21:45.433 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.4751ms
+2024-10-03 13:21:53.107 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7189/Account/Login - application/x-www-form-urlencoded 255
+2024-10-03 13:21:53.125 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-03 13:21:53.134 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Expensify.Web.Models.ViewModels.LoginViewModel) on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-03 13:21:53.159 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web) - Validation state: "Valid"
+2024-10-03 13:21:53.161 +03:00 [INF] Login attempt for user employee3@expensify.com.
+2024-10-03 13:21:53.202 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-10-03 13:21:53.258 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-10-03 13:21:53.263 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-10-03 13:21:53.267 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-10-03 13:21:53.270 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-10-03 13:21:53.274 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-10-03 13:21:53.276 +03:00 [INF] User employee3@expensify.com successfully logged in.
+2024-10-03 13:21:53.280 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 118.8769ms.
+2024-10-03 13:21:53.283 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2024-10-03 13:21:53.285 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Login (Expensify.Web) in 149.2805ms
+2024-10-03 13:21:53.287 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-03 13:21:53.289 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7189/Account/Login - 302 0 null 182.7203ms
+2024-10-03 13:21:53.292 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ - null null
+2024-10-03 13:21:53.308 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-03 13:21:53.310 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Expensify.Web.Controllers.HomeController (Expensify.Web).
+2024-10-03 13:21:53.321 +03:00 [INF] Executing action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web) - Validation state: "Valid"
+2024-10-03 13:21:53.324 +03:00 [INF] Executed action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0226ms.
+2024-10-03 13:21:53.326 +03:00 [INF] Executing ViewResult, running view Index.
+2024-10-03 13:21:53.337 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-03 13:21:53.343 +03:00 [INF] Executed ViewResult - view Index executed in 17.0452ms.
+2024-10-03 13:21:53.345 +03:00 [INF] Executed action Expensify.Web.Controllers.HomeController.Index (Expensify.Web) in 33.0298ms
+2024-10-03 13:21:53.348 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-03 13:21:53.351 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ - 200 null text/html; charset=utf-8 59.2615ms
+2024-10-03 13:21:53.351 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-03 13:21:53.351 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-03 13:21:53.365 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 14.5887ms
+2024-10-03 13:21:53.370 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.9299ms
+2024-10-03 13:21:54.248 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ExpenseForms/Add - null null
+2024-10-03 13:21:54.269 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.ExpenseFormsController.Add (Expensify.Web)'
+2024-10-03 13:21:54.272 +03:00 [INF] Route matched with {action = "Add", controller = "ExpenseForms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add() on controller Expensify.Web.Controllers.ExpenseFormsController (Expensify.Web).
+2024-10-03 13:21:54.282 +03:00 [INF] Executing action method Expensify.Web.Controllers.ExpenseFormsController.Add (Expensify.Web) - Validation state: "Valid"
+2024-10-03 13:21:54.285 +03:00 [INF] Entering Add expense form view
+2024-10-03 13:21:54.288 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-03 13:21:54.291 +03:00 [INF] Creating new expense form for employee with ID: 1fbb4387-2f8b-4d59-bdb7-8475c5cf2e93
+2024-10-03 13:21:54.292 +03:00 [INF] Executed action method Expensify.Web.Controllers.ExpenseFormsController.Add (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.979ms.
+2024-10-03 13:21:54.294 +03:00 [INF] Executing ViewResult, running view Add.
+2024-10-03 13:21:54.305 +03:00 [INF] Executed ViewResult - view Add executed in 11.3558ms.
+2024-10-03 13:21:54.308 +03:00 [INF] Executed action Expensify.Web.Controllers.ExpenseFormsController.Add (Expensify.Web) in 33.5962ms
+2024-10-03 13:21:54.310 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.ExpenseFormsController.Add (Expensify.Web)'
+2024-10-03 13:21:54.311 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-03 13:21:54.311 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-03 13:21:54.313 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ExpenseForms/Add - 200 null text/html; charset=utf-8 65.2365ms
+2024-10-03 13:21:54.316 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 5.6647ms
+2024-10-03 13:21:54.331 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.4371ms
+2024-10-03 13:22:26.081 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7189/ExpenseForms/Add - application/x-www-form-urlencoded 428
+2024-10-03 13:22:26.108 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.ExpenseFormsController.Add (Expensify.Web)'
+2024-10-03 13:22:26.119 +03:00 [INF] Route matched with {action = "Add", controller = "ExpenseForms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(Expensify.Web.Models.ViewModels.AddExpenseFormViewModel) on controller Expensify.Web.Controllers.ExpenseFormsController (Expensify.Web).
+2024-10-03 13:22:26.139 +03:00 [INF] Executing action method Expensify.Web.Controllers.ExpenseFormsController.Add (Expensify.Web) - Validation state: "Invalid"
+2024-10-03 13:22:28.561 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-03 13:24:19.881 +03:00 [INF] Saving new expense form for employee 1fbb4387-2f8b-4d59-bdb7-8475c5cf2e93.
+2024-10-03 13:24:20.019 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 450), @p2='?' (Size = 4000), @p3='?' (Size = 450), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (Size = 450), @p8='?' (Size = 4000), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Guid), @p11='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?' (Size = 450), @p14='?' (DbType = DateTime2), @p15='?' (DbType = Guid), @p16='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p17='?' (DbType = DateTime2), @p18='?' (Size = 255), @p19='?' (DbType = Guid), @p20='?' (DbType = Guid), @p21='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p22='?' (DbType = DateTime2), @p23='?' (Size = 255), @p24='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [ExpenseForms] ([Id], [AccountantId], [Currency], [EmployeeId], [IsApprovedByManager], [IsPaidByAccountant], [IsRejectedByManager], [ManagerId], [RejectionReason], [SubmissionDate])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);
+INSERT INTO [ExpenseFormHistories] ([Id], [ActionId], [ExpenseFormId], [PerformedByUserId], [Timestamp])
+VALUES (@p10, @p11, @p12, @p13, @p14);
+INSERT INTO [Expenses] ([Id], [Amount], [Date], [Description], [ExpenseFormId])
+VALUES (@p15, @p16, @p17, @p18, @p19),
+(@p20, @p21, @p22, @p23, @p24);
+2024-10-03 13:24:20.033 +03:00 [INF] Executed action method Expensify.Web.Controllers.ExpenseFormsController.Add (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 113891.8524ms.
+2024-10-03 13:24:20.036 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2024-10-03 13:24:20.037 +03:00 [INF] Executed action Expensify.Web.Controllers.ExpenseFormsController.Add (Expensify.Web) in 113915.7977ms
+2024-10-03 13:24:20.039 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.ExpenseFormsController.Add (Expensify.Web)'
+2024-10-03 13:24:20.040 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7189/ExpenseForms/Add - 302 0 null 113960.0312ms
+2024-10-03 13:24:20.044 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ - null null
+2024-10-03 13:24:20.061 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-03 13:24:20.063 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Expensify.Web.Controllers.HomeController (Expensify.Web).
+2024-10-03 13:24:20.074 +03:00 [INF] Executing action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web) - Validation state: "Valid"
+2024-10-03 13:24:20.075 +03:00 [INF] Executed action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0208ms.
+2024-10-03 13:24:20.077 +03:00 [INF] Executing ViewResult, running view Index.
+2024-10-03 13:24:20.081 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-03 13:24:20.085 +03:00 [INF] Executed ViewResult - view Index executed in 7.7991ms.
+2024-10-03 13:24:20.087 +03:00 [INF] Executed action Expensify.Web.Controllers.HomeController.Index (Expensify.Web) in 22.0669ms
+2024-10-03 13:24:20.089 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-03 13:24:20.092 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ - 200 null text/html; charset=utf-8 47.9063ms
+2024-10-03 13:24:20.098 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-03 13:24:20.098 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-03 13:24:20.118 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 20.5498ms
+2024-10-03 13:24:20.129 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.4802ms
+2024-10-03 13:24:22.490 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ExpenseForms/Add - null null
+2024-10-03 13:24:22.523 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.ExpenseFormsController.Add (Expensify.Web)'
+2024-10-03 13:24:22.525 +03:00 [INF] Route matched with {action = "Add", controller = "ExpenseForms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add() on controller Expensify.Web.Controllers.ExpenseFormsController (Expensify.Web).
+2024-10-03 13:24:22.552 +03:00 [INF] Executing action method Expensify.Web.Controllers.ExpenseFormsController.Add (Expensify.Web) - Validation state: "Valid"
+2024-10-03 13:24:22.557 +03:00 [INF] Entering Add expense form view
+2024-10-03 13:24:22.560 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-03 13:24:22.563 +03:00 [INF] Creating new expense form for employee with ID: 1fbb4387-2f8b-4d59-bdb7-8475c5cf2e93
+2024-10-03 13:24:22.572 +03:00 [INF] Executed action method Expensify.Web.Controllers.ExpenseFormsController.Add (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 15.0204ms.
+2024-10-03 13:24:22.575 +03:00 [INF] Executing ViewResult, running view Add.
+2024-10-03 13:24:22.578 +03:00 [INF] Executed ViewResult - view Add executed in 3.7947ms.
+2024-10-03 13:24:22.580 +03:00 [INF] Executed action Expensify.Web.Controllers.ExpenseFormsController.Add (Expensify.Web) in 52.6507ms
+2024-10-03 13:24:22.584 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.ExpenseFormsController.Add (Expensify.Web)'
+2024-10-03 13:24:22.585 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-03 13:24:22.585 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-03 13:24:22.587 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ExpenseForms/Add - 200 null text/html; charset=utf-8 96.784ms
+2024-10-03 13:24:22.590 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.5545ms
+2024-10-03 13:24:22.602 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.4402ms
+2024-10-03 13:24:22.977 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ExpenseForms/List - null null
+2024-10-03 13:24:22.993 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web)'
+2024-10-03 13:24:22.999 +03:00 [INF] Route matched with {action = "List", controller = "ExpenseForms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Expensify.Web.Models.ViewModels.ExpenseFormFilterViewModel) on controller Expensify.Web.Controllers.ExpenseFormsController (Expensify.Web).
+2024-10-03 13:24:23.013 +03:00 [INF] Executing action method Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web) - Validation state: "Invalid"
+2024-10-03 13:24:23.015 +03:00 [INF] Fetching the current user for expense form list.
+2024-10-03 13:24:23.020 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-03 13:24:23.024 +03:00 [INF] Fetching all expense forms for the current user.
+2024-10-03 13:24:23.070 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__ToString_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[AccountantId], [e].[Currency], [e].[EmployeeId], [e].[IsApprovedByManager], [e].[IsPaidByAccountant], [e].[IsRejectedByManager], [e].[ManagerId], [e].[RejectionReason], [e].[SubmissionDate], [a].[Id], [a0].[Id], [e0].[Id], [e0].[Amount], [e0].[Date], [e0].[Description], [e0].[ExpenseFormId], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[ManagerId], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [ExpenseForms] AS [e]
+INNER JOIN [AspNetUsers] AS [a] ON [e].[EmployeeId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [e].[ManagerId] = [a0].[Id]
+LEFT JOIN [Expenses] AS [e0] ON [e].[Id] = [e0].[ExpenseFormId]
+WHERE [e].[EmployeeId] = @__ToString_0
+ORDER BY [e].[SubmissionDate] DESC, [e].[Id], [a].[Id], [a0].[Id]
+2024-10-03 13:24:23.088 +03:00 [INF] Applying filters to expense forms.
+2024-10-03 13:24:23.090 +03:00 [INF] Returning filtered expense forms.
+2024-10-03 13:24:23.094 +03:00 [INF] Executed action method Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 79.4055ms.
+2024-10-03 13:24:23.097 +03:00 [INF] Executing ViewResult, running view List.
+2024-10-03 13:24:23.120 +03:00 [INF] Executed ViewResult - view List executed in 23.3665ms.
+2024-10-03 13:24:23.122 +03:00 [INF] Executed action Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web) in 119.6264ms
+2024-10-03 13:24:23.125 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web)'
+2024-10-03 13:24:23.126 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-03 13:24:23.126 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-03 13:24:23.128 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ExpenseForms/List - 200 null text/html; charset=utf-8 150.573ms
+2024-10-03 13:24:23.131 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.8108ms
+2024-10-03 13:24:23.149 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.5176ms
+2024-10-03 13:24:27.762 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ExpenseForms/ViewExpenseFormDetails/f34dc252-46c5-4708-82d8-705414c0c4c4 - null null
+2024-10-03 13:24:27.805 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.ExpenseFormsController.ViewExpenseFormDetails (Expensify.Web)'
+2024-10-03 13:24:27.810 +03:00 [INF] Route matched with {action = "ViewExpenseFormDetails", controller = "ExpenseForms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewExpenseFormDetails(System.Guid) on controller Expensify.Web.Controllers.ExpenseFormsController (Expensify.Web).
+2024-10-03 13:24:27.824 +03:00 [INF] Executing action method Expensify.Web.Controllers.ExpenseFormsController.ViewExpenseFormDetails (Expensify.Web) - Validation state: "Valid"
+2024-10-03 13:24:27.828 +03:00 [INF] Fetching details for expense form with ID: f34dc252-46c5-4708-82d8-705414c0c4c4
+2024-10-03 13:24:27.846 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AccountantId], [t].[Currency], [t].[EmployeeId], [t].[IsApprovedByManager], [t].[IsPaidByAccountant], [t].[IsRejectedByManager], [t].[ManagerId], [t].[RejectionReason], [t].[SubmissionDate], [t].[Id0], [t].[Id1], [e0].[Id], [e0].[Amount], [e0].[Date], [e0].[Description], [e0].[ExpenseFormId], [t].[AccessFailedCount], [t].[ConcurrencyStamp], [t].[Email], [t].[EmailConfirmed], [t].[FullName], [t].[LockoutEnabled], [t].[LockoutEnd], [t].[ManagerId0], [t].[NormalizedEmail], [t].[NormalizedUserName], [t].[PasswordHash], [t].[PhoneNumber], [t].[PhoneNumberConfirmed], [t].[SecurityStamp], [t].[TwoFactorEnabled], [t].[UserName], [t].[AccessFailedCount0], [t].[ConcurrencyStamp0], [t].[Email0], [t].[EmailConfirmed0], [t].[FullName0], [t].[LockoutEnabled0], [t].[LockoutEnd0], [t].[ManagerId1], [t].[NormalizedEmail0], [t].[NormalizedUserName0], [t].[PasswordHash0], [t].[PhoneNumber0], [t].[PhoneNumberConfirmed0], [t].[SecurityStamp0], [t].[TwoFactorEnabled0], [t].[UserName0]
+FROM (
+    SELECT TOP(1) [e].[Id], [e].[AccountantId], [e].[Currency], [e].[EmployeeId], [e].[IsApprovedByManager], [e].[IsPaidByAccountant], [e].[IsRejectedByManager], [e].[ManagerId], [e].[RejectionReason], [e].[SubmissionDate], [a].[Id] AS [Id0], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId] AS [ManagerId0], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Id] AS [Id1], [a0].[AccessFailedCount] AS [AccessFailedCount0], [a0].[ConcurrencyStamp] AS [ConcurrencyStamp0], [a0].[Email] AS [Email0], [a0].[EmailConfirmed] AS [EmailConfirmed0], [a0].[FullName] AS [FullName0], [a0].[LockoutEnabled] AS [LockoutEnabled0], [a0].[LockoutEnd] AS [LockoutEnd0], [a0].[ManagerId] AS [ManagerId1], [a0].[NormalizedEmail] AS [NormalizedEmail0], [a0].[NormalizedUserName] AS [NormalizedUserName0], [a0].[PasswordHash] AS [PasswordHash0], [a0].[PhoneNumber] AS [PhoneNumber0], [a0].[PhoneNumberConfirmed] AS [PhoneNumberConfirmed0], [a0].[SecurityStamp] AS [SecurityStamp0], [a0].[TwoFactorEnabled] AS [TwoFactorEnabled0], [a0].[UserName] AS [UserName0]
+    FROM [ExpenseForms] AS [e]
+    INNER JOIN [AspNetUsers] AS [a] ON [e].[EmployeeId] = [a].[Id]
+    LEFT JOIN [AspNetUsers] AS [a0] ON [e].[ManagerId] = [a0].[Id]
+    WHERE [e].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [Expenses] AS [e0] ON [t].[Id] = [e0].[ExpenseFormId]
+ORDER BY [t].[Id], [t].[Id0], [t].[Id1]
+2024-10-03 13:24:27.855 +03:00 [INF] Returning details view for expense form with ID: f34dc252-46c5-4708-82d8-705414c0c4c4
+2024-10-03 13:24:27.857 +03:00 [INF] Executed action method Expensify.Web.Controllers.ExpenseFormsController.ViewExpenseFormDetails (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 30.0808ms.
+2024-10-03 13:24:27.860 +03:00 [INF] Executing ViewResult, running view ViewExpenseFormDetails.
+2024-10-03 13:24:27.865 +03:00 [INF] Executed ViewResult - view ViewExpenseFormDetails executed in 6.3781ms.
+2024-10-03 13:24:27.868 +03:00 [INF] Executed action Expensify.Web.Controllers.ExpenseFormsController.ViewExpenseFormDetails (Expensify.Web) in 54.599ms
+2024-10-03 13:24:27.870 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.ExpenseFormsController.ViewExpenseFormDetails (Expensify.Web)'
+2024-10-03 13:24:27.873 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-03 13:24:27.873 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-03 13:24:27.873 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ExpenseForms/ViewExpenseFormDetails/f34dc252-46c5-4708-82d8-705414c0c4c4 - 200 null text/html; charset=utf-8 111.4937ms
+2024-10-03 13:24:27.880 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.9928ms
+2024-10-03 13:24:27.891 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.3972ms
+2024-10-03 13:24:30.736 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ExpenseForms/List - null null
+2024-10-03 13:24:30.761 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web)'
+2024-10-03 13:24:30.763 +03:00 [INF] Route matched with {action = "List", controller = "ExpenseForms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Expensify.Web.Models.ViewModels.ExpenseFormFilterViewModel) on controller Expensify.Web.Controllers.ExpenseFormsController (Expensify.Web).
+2024-10-03 13:24:30.773 +03:00 [INF] Executing action method Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web) - Validation state: "Invalid"
+2024-10-03 13:24:30.775 +03:00 [INF] Fetching the current user for expense form list.
+2024-10-03 13:24:30.778 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-03 13:24:30.782 +03:00 [INF] Fetching all expense forms for the current user.
+2024-10-03 13:24:30.784 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ToString_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[AccountantId], [e].[Currency], [e].[EmployeeId], [e].[IsApprovedByManager], [e].[IsPaidByAccountant], [e].[IsRejectedByManager], [e].[ManagerId], [e].[RejectionReason], [e].[SubmissionDate], [a].[Id], [a0].[Id], [e0].[Id], [e0].[Amount], [e0].[Date], [e0].[Description], [e0].[ExpenseFormId], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[ManagerId], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [ExpenseForms] AS [e]
+INNER JOIN [AspNetUsers] AS [a] ON [e].[EmployeeId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [e].[ManagerId] = [a0].[Id]
+LEFT JOIN [Expenses] AS [e0] ON [e].[Id] = [e0].[ExpenseFormId]
+WHERE [e].[EmployeeId] = @__ToString_0
+ORDER BY [e].[SubmissionDate] DESC, [e].[Id], [a].[Id], [a0].[Id]
+2024-10-03 13:24:30.789 +03:00 [INF] Applying filters to expense forms.
+2024-10-03 13:24:30.790 +03:00 [INF] Returning filtered expense forms.
+2024-10-03 13:24:30.792 +03:00 [INF] Executed action method Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 16.359ms.
+2024-10-03 13:24:30.793 +03:00 [INF] Executing ViewResult, running view List.
+2024-10-03 13:24:30.797 +03:00 [INF] Executed ViewResult - view List executed in 3.7715ms.
+2024-10-03 13:24:30.799 +03:00 [INF] Executed action Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web) in 33.6997ms
+2024-10-03 13:24:30.801 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web)'
+2024-10-03 13:24:30.803 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ExpenseForms/List - 200 null text/html; charset=utf-8 67.3587ms
+2024-10-03 13:24:30.804 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-03 13:24:30.810 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.8613ms
+2024-10-03 13:26:20.857 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ExpenseForms/Edit/b570f61e-155f-4c2a-9366-08dce3958adb - null null
+2024-10-03 13:26:20.889 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.ExpenseFormsController.Edit (Expensify.Web)'
+2024-10-03 13:26:20.892 +03:00 [INF] Route matched with {action = "Edit", controller = "ExpenseForms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(System.Guid) on controller Expensify.Web.Controllers.ExpenseFormsController (Expensify.Web).
+2024-10-03 13:26:20.905 +03:00 [INF] Executing action method Expensify.Web.Controllers.ExpenseFormsController.Edit (Expensify.Web) - Validation state: "Valid"
+2024-10-03 13:26:20.907 +03:00 [INF] Fetching expense form with ID b570f61e-155f-4c2a-9366-08dce3958adb for editing.
+2024-10-03 13:26:20.911 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AccountantId], [t].[Currency], [t].[EmployeeId], [t].[IsApprovedByManager], [t].[IsPaidByAccountant], [t].[IsRejectedByManager], [t].[ManagerId], [t].[RejectionReason], [t].[SubmissionDate], [t].[Id0], [t].[Id1], [e0].[Id], [e0].[Amount], [e0].[Date], [e0].[Description], [e0].[ExpenseFormId], [t].[AccessFailedCount], [t].[ConcurrencyStamp], [t].[Email], [t].[EmailConfirmed], [t].[FullName], [t].[LockoutEnabled], [t].[LockoutEnd], [t].[ManagerId0], [t].[NormalizedEmail], [t].[NormalizedUserName], [t].[PasswordHash], [t].[PhoneNumber], [t].[PhoneNumberConfirmed], [t].[SecurityStamp], [t].[TwoFactorEnabled], [t].[UserName], [t].[AccessFailedCount0], [t].[ConcurrencyStamp0], [t].[Email0], [t].[EmailConfirmed0], [t].[FullName0], [t].[LockoutEnabled0], [t].[LockoutEnd0], [t].[ManagerId1], [t].[NormalizedEmail0], [t].[NormalizedUserName0], [t].[PasswordHash0], [t].[PhoneNumber0], [t].[PhoneNumberConfirmed0], [t].[SecurityStamp0], [t].[TwoFactorEnabled0], [t].[UserName0]
+FROM (
+    SELECT TOP(1) [e].[Id], [e].[AccountantId], [e].[Currency], [e].[EmployeeId], [e].[IsApprovedByManager], [e].[IsPaidByAccountant], [e].[IsRejectedByManager], [e].[ManagerId], [e].[RejectionReason], [e].[SubmissionDate], [a].[Id] AS [Id0], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId] AS [ManagerId0], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Id] AS [Id1], [a0].[AccessFailedCount] AS [AccessFailedCount0], [a0].[ConcurrencyStamp] AS [ConcurrencyStamp0], [a0].[Email] AS [Email0], [a0].[EmailConfirmed] AS [EmailConfirmed0], [a0].[FullName] AS [FullName0], [a0].[LockoutEnabled] AS [LockoutEnabled0], [a0].[LockoutEnd] AS [LockoutEnd0], [a0].[ManagerId] AS [ManagerId1], [a0].[NormalizedEmail] AS [NormalizedEmail0], [a0].[NormalizedUserName] AS [NormalizedUserName0], [a0].[PasswordHash] AS [PasswordHash0], [a0].[PhoneNumber] AS [PhoneNumber0], [a0].[PhoneNumberConfirmed] AS [PhoneNumberConfirmed0], [a0].[SecurityStamp] AS [SecurityStamp0], [a0].[TwoFactorEnabled] AS [TwoFactorEnabled0], [a0].[UserName] AS [UserName0]
+    FROM [ExpenseForms] AS [e]
+    INNER JOIN [AspNetUsers] AS [a] ON [e].[EmployeeId] = [a].[Id]
+    LEFT JOIN [AspNetUsers] AS [a0] ON [e].[ManagerId] = [a0].[Id]
+    WHERE [e].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [Expenses] AS [e0] ON [t].[Id] = [e0].[ExpenseFormId]
+ORDER BY [t].[Id], [t].[Id0], [t].[Id1]
+2024-10-03 13:26:20.922 +03:00 [INF] Returning view for editing expense form with ID b570f61e-155f-4c2a-9366-08dce3958adb.
+2024-10-03 13:26:20.923 +03:00 [INF] Executed action method Expensify.Web.Controllers.ExpenseFormsController.Edit (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 16.6663ms.
+2024-10-03 13:26:20.926 +03:00 [INF] Executing ViewResult, running view Edit.
+2024-10-03 13:26:20.945 +03:00 [INF] Executed ViewResult - view Edit executed in 19.3469ms.
+2024-10-03 13:26:20.952 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-03 13:26:20.952 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-03 13:26:20.952 +03:00 [INF] Executed action Expensify.Web.Controllers.ExpenseFormsController.Edit (Expensify.Web) in 57.514ms
+2024-10-03 13:26:20.959 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.5693ms
+2024-10-03 13:26:20.961 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.ExpenseFormsController.Edit (Expensify.Web)'
+2024-10-03 13:26:20.976 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.8692ms
+2024-10-03 13:26:20.979 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ExpenseForms/Edit/b570f61e-155f-4c2a-9366-08dce3958adb - 200 null text/html; charset=utf-8 130.9987ms
+2024-10-03 13:26:24.684 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7189/ExpenseForms/Edit/b570f61e-155f-4c2a-9366-08dce3958adb - application/x-www-form-urlencoded 721
+2024-10-03 13:26:24.706 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.ExpenseFormsController.Edit (Expensify.Web)'
+2024-10-03 13:26:24.709 +03:00 [INF] Route matched with {action = "Edit", controller = "ExpenseForms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(Expensify.Web.Models.ViewModels.ExpenseFormViewModel) on controller Expensify.Web.Controllers.ExpenseFormsController (Expensify.Web).
+2024-10-03 13:26:24.722 +03:00 [INF] Executing action method Expensify.Web.Controllers.ExpenseFormsController.Edit (Expensify.Web) - Validation state: "Invalid"
+2024-10-03 13:26:24.725 +03:00 [INF] Editing expense form with ID b570f61e-155f-4c2a-9366-08dce3958adb.
+2024-10-03 13:26:24.728 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-03 13:26:24.731 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AccountantId], [t].[Currency], [t].[EmployeeId], [t].[IsApprovedByManager], [t].[IsPaidByAccountant], [t].[IsRejectedByManager], [t].[ManagerId], [t].[RejectionReason], [t].[SubmissionDate], [t].[Id0], [t].[Id1], [e0].[Id], [e0].[Amount], [e0].[Date], [e0].[Description], [e0].[ExpenseFormId], [t].[AccessFailedCount], [t].[ConcurrencyStamp], [t].[Email], [t].[EmailConfirmed], [t].[FullName], [t].[LockoutEnabled], [t].[LockoutEnd], [t].[ManagerId0], [t].[NormalizedEmail], [t].[NormalizedUserName], [t].[PasswordHash], [t].[PhoneNumber], [t].[PhoneNumberConfirmed], [t].[SecurityStamp], [t].[TwoFactorEnabled], [t].[UserName], [t].[AccessFailedCount0], [t].[ConcurrencyStamp0], [t].[Email0], [t].[EmailConfirmed0], [t].[FullName0], [t].[LockoutEnabled0], [t].[LockoutEnd0], [t].[ManagerId1], [t].[NormalizedEmail0], [t].[NormalizedUserName0], [t].[PasswordHash0], [t].[PhoneNumber0], [t].[PhoneNumberConfirmed0], [t].[SecurityStamp0], [t].[TwoFactorEnabled0], [t].[UserName0]
+FROM (
+    SELECT TOP(1) [e].[Id], [e].[AccountantId], [e].[Currency], [e].[EmployeeId], [e].[IsApprovedByManager], [e].[IsPaidByAccountant], [e].[IsRejectedByManager], [e].[ManagerId], [e].[RejectionReason], [e].[SubmissionDate], [a].[Id] AS [Id0], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId] AS [ManagerId0], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Id] AS [Id1], [a0].[AccessFailedCount] AS [AccessFailedCount0], [a0].[ConcurrencyStamp] AS [ConcurrencyStamp0], [a0].[Email] AS [Email0], [a0].[EmailConfirmed] AS [EmailConfirmed0], [a0].[FullName] AS [FullName0], [a0].[LockoutEnabled] AS [LockoutEnabled0], [a0].[LockoutEnd] AS [LockoutEnd0], [a0].[ManagerId] AS [ManagerId1], [a0].[NormalizedEmail] AS [NormalizedEmail0], [a0].[NormalizedUserName] AS [NormalizedUserName0], [a0].[PasswordHash] AS [PasswordHash0], [a0].[PhoneNumber] AS [PhoneNumber0], [a0].[PhoneNumberConfirmed] AS [PhoneNumberConfirmed0], [a0].[SecurityStamp] AS [SecurityStamp0], [a0].[TwoFactorEnabled] AS [TwoFactorEnabled0], [a0].[UserName] AS [UserName0]
+    FROM [ExpenseForms] AS [e]
+    INNER JOIN [AspNetUsers] AS [a] ON [e].[EmployeeId] = [a].[Id]
+    LEFT JOIN [AspNetUsers] AS [a0] ON [e].[ManagerId] = [a0].[Id]
+    WHERE [e].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [Expenses] AS [e0] ON [t].[Id] = [e0].[ExpenseFormId]
+ORDER BY [t].[Id], [t].[Id0], [t].[Id1]
+2024-10-03 13:26:24.736 +03:00 [INF] Updating the currency and expenses for expense form with ID b570f61e-155f-4c2a-9366-08dce3958adb.
+2024-10-03 13:26:24.747 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__expenseForm_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AccountantId], [t].[Currency], [t].[EmployeeId], [t].[IsApprovedByManager], [t].[IsPaidByAccountant], [t].[IsRejectedByManager], [t].[ManagerId], [t].[RejectionReason], [t].[SubmissionDate], [e0].[Id], [e0].[Amount], [e0].[Date], [e0].[Description], [e0].[ExpenseFormId]
+FROM (
+    SELECT TOP(1) [e].[Id], [e].[AccountantId], [e].[Currency], [e].[EmployeeId], [e].[IsApprovedByManager], [e].[IsPaidByAccountant], [e].[IsRejectedByManager], [e].[ManagerId], [e].[RejectionReason], [e].[SubmissionDate]
+    FROM [ExpenseForms] AS [e]
+    WHERE [e].[Id] = @__expenseForm_Id_0
+) AS [t]
+LEFT JOIN [Expenses] AS [e0] ON [t].[Id] = [e0].[ExpenseFormId]
+ORDER BY [t].[Id]
+2024-10-03 13:26:24.759 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Guid), @p3='?' (Size = 450), @p4='?' (DbType = DateTime2), @p6='?' (DbType = Guid), @p5='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [ExpenseFormHistories] ([Id], [ActionId], [ExpenseFormId], [PerformedByUserId], [Timestamp])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+UPDATE [Expenses] SET [Description] = @p5
+OUTPUT 1
+WHERE [Id] = @p6;
+2024-10-03 13:26:24.763 +03:00 [INF] Expense form with ID b570f61e-155f-4c2a-9366-08dce3958adb updated successfully.
+2024-10-03 13:26:24.765 +03:00 [INF] Executed action method Expensify.Web.Controllers.ExpenseFormsController.Edit (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 41.4747ms.
+2024-10-03 13:26:24.769 +03:00 [INF] Executing RedirectResult, redirecting to /ExpenseForms/List.
+2024-10-03 13:26:24.770 +03:00 [INF] Executed action Expensify.Web.Controllers.ExpenseFormsController.Edit (Expensify.Web) in 59.2605ms
+2024-10-03 13:26:24.772 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.ExpenseFormsController.Edit (Expensify.Web)'
+2024-10-03 13:26:24.773 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7189/ExpenseForms/Edit/b570f61e-155f-4c2a-9366-08dce3958adb - 302 0 null 89.2363ms
+2024-10-03 13:26:24.776 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ExpenseForms/List - null null
+2024-10-03 13:26:24.789 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web)'
+2024-10-03 13:26:24.791 +03:00 [INF] Route matched with {action = "List", controller = "ExpenseForms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Expensify.Web.Models.ViewModels.ExpenseFormFilterViewModel) on controller Expensify.Web.Controllers.ExpenseFormsController (Expensify.Web).
+2024-10-03 13:26:24.801 +03:00 [INF] Executing action method Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web) - Validation state: "Invalid"
+2024-10-03 13:26:24.802 +03:00 [INF] Fetching the current user for expense form list.
+2024-10-03 13:26:24.805 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-03 13:26:24.807 +03:00 [INF] Fetching all expense forms for the current user.
+2024-10-03 13:26:24.809 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__ToString_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[AccountantId], [e].[Currency], [e].[EmployeeId], [e].[IsApprovedByManager], [e].[IsPaidByAccountant], [e].[IsRejectedByManager], [e].[ManagerId], [e].[RejectionReason], [e].[SubmissionDate], [a].[Id], [a0].[Id], [e0].[Id], [e0].[Amount], [e0].[Date], [e0].[Description], [e0].[ExpenseFormId], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[ManagerId], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [ExpenseForms] AS [e]
+INNER JOIN [AspNetUsers] AS [a] ON [e].[EmployeeId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [e].[ManagerId] = [a0].[Id]
+LEFT JOIN [Expenses] AS [e0] ON [e].[Id] = [e0].[ExpenseFormId]
+WHERE [e].[EmployeeId] = @__ToString_0
+ORDER BY [e].[SubmissionDate] DESC, [e].[Id], [a].[Id], [a0].[Id]
+2024-10-03 13:26:24.812 +03:00 [INF] Applying filters to expense forms.
+2024-10-03 13:26:24.813 +03:00 [INF] Returning filtered expense forms.
+2024-10-03 13:26:24.815 +03:00 [INF] Executed action method Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 12.5872ms.
+2024-10-03 13:26:24.817 +03:00 [INF] Executing ViewResult, running view List.
+2024-10-03 13:26:24.824 +03:00 [INF] Executed ViewResult - view List executed in 7.2784ms.
+2024-10-03 13:26:24.827 +03:00 [INF] Executed action Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web) in 34.9693ms
+2024-10-03 13:26:24.830 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web)'
+2024-10-03 13:26:24.832 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ExpenseForms/List - 200 null text/html; charset=utf-8 55.9565ms
+2024-10-03 13:26:24.834 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-03 13:26:24.834 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-03 13:26:24.843 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 9.7086ms
+2024-10-03 13:26:24.846 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.4647ms
+2024-10-03 13:26:26.168 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ExpenseForms/ViewExpenseFormDetails/b570f61e-155f-4c2a-9366-08dce3958adb - null null
+2024-10-03 13:26:26.191 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.ExpenseFormsController.ViewExpenseFormDetails (Expensify.Web)'
+2024-10-03 13:26:26.193 +03:00 [INF] Route matched with {action = "ViewExpenseFormDetails", controller = "ExpenseForms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ViewExpenseFormDetails(System.Guid) on controller Expensify.Web.Controllers.ExpenseFormsController (Expensify.Web).
+2024-10-03 13:26:26.208 +03:00 [INF] Executing action method Expensify.Web.Controllers.ExpenseFormsController.ViewExpenseFormDetails (Expensify.Web) - Validation state: "Valid"
+2024-10-03 13:26:26.211 +03:00 [INF] Fetching details for expense form with ID: b570f61e-155f-4c2a-9366-08dce3958adb
+2024-10-03 13:26:26.215 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AccountantId], [t].[Currency], [t].[EmployeeId], [t].[IsApprovedByManager], [t].[IsPaidByAccountant], [t].[IsRejectedByManager], [t].[ManagerId], [t].[RejectionReason], [t].[SubmissionDate], [t].[Id0], [t].[Id1], [e0].[Id], [e0].[Amount], [e0].[Date], [e0].[Description], [e0].[ExpenseFormId], [t].[AccessFailedCount], [t].[ConcurrencyStamp], [t].[Email], [t].[EmailConfirmed], [t].[FullName], [t].[LockoutEnabled], [t].[LockoutEnd], [t].[ManagerId0], [t].[NormalizedEmail], [t].[NormalizedUserName], [t].[PasswordHash], [t].[PhoneNumber], [t].[PhoneNumberConfirmed], [t].[SecurityStamp], [t].[TwoFactorEnabled], [t].[UserName], [t].[AccessFailedCount0], [t].[ConcurrencyStamp0], [t].[Email0], [t].[EmailConfirmed0], [t].[FullName0], [t].[LockoutEnabled0], [t].[LockoutEnd0], [t].[ManagerId1], [t].[NormalizedEmail0], [t].[NormalizedUserName0], [t].[PasswordHash0], [t].[PhoneNumber0], [t].[PhoneNumberConfirmed0], [t].[SecurityStamp0], [t].[TwoFactorEnabled0], [t].[UserName0]
+FROM (
+    SELECT TOP(1) [e].[Id], [e].[AccountantId], [e].[Currency], [e].[EmployeeId], [e].[IsApprovedByManager], [e].[IsPaidByAccountant], [e].[IsRejectedByManager], [e].[ManagerId], [e].[RejectionReason], [e].[SubmissionDate], [a].[Id] AS [Id0], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId] AS [ManagerId0], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Id] AS [Id1], [a0].[AccessFailedCount] AS [AccessFailedCount0], [a0].[ConcurrencyStamp] AS [ConcurrencyStamp0], [a0].[Email] AS [Email0], [a0].[EmailConfirmed] AS [EmailConfirmed0], [a0].[FullName] AS [FullName0], [a0].[LockoutEnabled] AS [LockoutEnabled0], [a0].[LockoutEnd] AS [LockoutEnd0], [a0].[ManagerId] AS [ManagerId1], [a0].[NormalizedEmail] AS [NormalizedEmail0], [a0].[NormalizedUserName] AS [NormalizedUserName0], [a0].[PasswordHash] AS [PasswordHash0], [a0].[PhoneNumber] AS [PhoneNumber0], [a0].[PhoneNumberConfirmed] AS [PhoneNumberConfirmed0], [a0].[SecurityStamp] AS [SecurityStamp0], [a0].[TwoFactorEnabled] AS [TwoFactorEnabled0], [a0].[UserName] AS [UserName0]
+    FROM [ExpenseForms] AS [e]
+    INNER JOIN [AspNetUsers] AS [a] ON [e].[EmployeeId] = [a].[Id]
+    LEFT JOIN [AspNetUsers] AS [a0] ON [e].[ManagerId] = [a0].[Id]
+    WHERE [e].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [Expenses] AS [e0] ON [t].[Id] = [e0].[ExpenseFormId]
+ORDER BY [t].[Id], [t].[Id0], [t].[Id1]
+2024-10-03 13:26:26.219 +03:00 [INF] Returning details view for expense form with ID: b570f61e-155f-4c2a-9366-08dce3958adb
+2024-10-03 13:26:26.221 +03:00 [INF] Executed action method Expensify.Web.Controllers.ExpenseFormsController.ViewExpenseFormDetails (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 9.7822ms.
+2024-10-03 13:26:26.223 +03:00 [INF] Executing ViewResult, running view ViewExpenseFormDetails.
+2024-10-03 13:26:26.226 +03:00 [INF] Executed ViewResult - view ViewExpenseFormDetails executed in 3.1605ms.
+2024-10-03 13:26:26.228 +03:00 [INF] Executed action Expensify.Web.Controllers.ExpenseFormsController.ViewExpenseFormDetails (Expensify.Web) in 32.5393ms
+2024-10-03 13:26:26.230 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.ExpenseFormsController.ViewExpenseFormDetails (Expensify.Web)'
+2024-10-03 13:26:26.232 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-03 13:26:26.232 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-03 13:26:26.233 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ExpenseForms/ViewExpenseFormDetails/b570f61e-155f-4c2a-9366-08dce3958adb - 200 null text/html; charset=utf-8 65.8419ms
+2024-10-03 13:26:26.240 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 8.2126ms
+2024-10-03 13:26:26.253 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.0493ms
+2024-10-03 13:26:29.509 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ExpenseForms/List - null null
+2024-10-03 13:26:29.531 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web)'
+2024-10-03 13:26:29.533 +03:00 [INF] Route matched with {action = "List", controller = "ExpenseForms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Expensify.Web.Models.ViewModels.ExpenseFormFilterViewModel) on controller Expensify.Web.Controllers.ExpenseFormsController (Expensify.Web).
+2024-10-03 13:26:29.544 +03:00 [INF] Executing action method Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web) - Validation state: "Invalid"
+2024-10-03 13:26:29.546 +03:00 [INF] Fetching the current user for expense form list.
+2024-10-03 13:26:29.549 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-03 13:26:29.552 +03:00 [INF] Fetching all expense forms for the current user.
+2024-10-03 13:26:29.554 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__ToString_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[AccountantId], [e].[Currency], [e].[EmployeeId], [e].[IsApprovedByManager], [e].[IsPaidByAccountant], [e].[IsRejectedByManager], [e].[ManagerId], [e].[RejectionReason], [e].[SubmissionDate], [a].[Id], [a0].[Id], [e0].[Id], [e0].[Amount], [e0].[Date], [e0].[Description], [e0].[ExpenseFormId], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[ManagerId], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [ExpenseForms] AS [e]
+INNER JOIN [AspNetUsers] AS [a] ON [e].[EmployeeId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [e].[ManagerId] = [a0].[Id]
+LEFT JOIN [Expenses] AS [e0] ON [e].[Id] = [e0].[ExpenseFormId]
+WHERE [e].[EmployeeId] = @__ToString_0
+ORDER BY [e].[SubmissionDate] DESC, [e].[Id], [a].[Id], [a0].[Id]
+2024-10-03 13:26:29.558 +03:00 [INF] Applying filters to expense forms.
+2024-10-03 13:26:29.560 +03:00 [INF] Returning filtered expense forms.
+2024-10-03 13:26:29.561 +03:00 [INF] Executed action method Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 15.051ms.
+2024-10-03 13:26:29.563 +03:00 [INF] Executing ViewResult, running view List.
+2024-10-03 13:26:29.568 +03:00 [INF] Executed ViewResult - view List executed in 4.2194ms.
+2024-10-03 13:26:29.570 +03:00 [INF] Executed action Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web) in 34.1628ms
+2024-10-03 13:26:29.572 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web)'
+2024-10-03 13:26:29.574 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-03 13:26:29.574 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ExpenseForms/List - 200 null text/html; charset=utf-8 65.2136ms
+2024-10-03 13:26:29.578 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 3.3725ms

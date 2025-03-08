@@ -1,0 +1,149 @@
+﻿@model Expensify.Web.Models.ViewModels.AddExpenseFormViewModel
+
+<div class="container py-5">
+    <h1 class="mb-4">Add Expense Form</h1>
+
+    <form asp-action="Add" method="post">
+        <!-- Form-level currency selection -->
+        <div class="mb-3">
+            <label for="Currency" class="form-label">Currency</label>
+            <select id="Currency" name="Currency" class="form-select" required>
+                <option value="">-- Select Currency --</option>
+                <option value="TL">TL</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="PKR">PKR</option>
+                <option value="INR">INR</option>
+
+            </select>
+        </div>
+
+        <div id="expenses-list">
+            @for (int i = 0; i < Model.Expenses.Count; i++)
+            {
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <label for="Expenses_@(i)__Description" class="form-label">Description</label>
+                                <input type="text" class="form-control" id="Expenses_@(i)__Description" name="Expenses[@(i)].Description" value="@Model.Expenses[i].Description" required />
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="Expenses_@(i)__Amount" class="form-label">Amount</label>
+                                <input type="number" step="0.01" class="form-control amount-input" id="Expenses_@(i)__Amount" name="Expenses[@(i)].Amount" value="@Model.Expenses[i].Amount" required />
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="Expenses_@(i)__Date" class="form-label">Date</label>
+                                <input type="date" class="form-control" id="Expenses_@(i)__Date" name="Expenses[@(i)].Date" value="@Model.Expenses[i].Date.ToString("yyyy-MM-dd")" required />
+                            </div>
+                        </div>
+                    </div>
+            }
+        </div>
+
+        <div class="mb-3">
+            <button type="button" id="add-more-expense" class="btn btn-secondary">Add More Expense</button>
+        </div>
+
+        <div class="mb-3">
+            <strong>Total Amount: </strong> <span id="total-amount">0.00</span> <span id="currency-label"></span>
+        </div>
+
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+     <script>
+        // Calculate total amount and validate amounts
+        function calculateTotal() {
+            var total = 0;
+            var currency = $('#Currency').val();
+            var valid = true; // Assume the form is valid initially
+
+            // JQuery selector -> loop through the input fields for amounts
+            $('.amount-input').each(function () {
+                var amount = parseFloat($(this).val());
+                if (!isNaN(amount)) {
+                    total += amount;
+                    if (amount > 5000) {
+                        valid = false;
+                        // marks the input as invalid
+                        $(this).addClass('is-invalid');
+                        $(this).next('.invalid-feedback').remove(); // prevents displaying duplicate error messages
+                        // After the input field, inserts a <div> containing error message
+                        $(this).after('<div class="invalid-feedback">Amount cannot exceed 5000.</div>');
+                    } else {
+                        $(this).removeClass('is-invalid');
+                        $(this).next('.invalid-feedback').remove(); // Remove error message if condition is satisfied
+                    }
+                }
+            });
+
+            // .toFixed(2) -> display with 2 decimal places
+            // Updates the text content of the element with the id total-amount
+            $('#total-amount').text(total.toFixed(2));
+            $('#currency-label').text(currency);
+
+            return valid; // Return whether the form is valid or not
+        }
+
+        // Runs when the page has fully loaded
+        $(document).ready(function () {
+            /* Adds an event listener to all input fields with the class amount-input. 
+            Whenever the user types into one of these fields,
+            the calculateTotal function is called to update the total and validate the amounts.
+            */
+            $(document).on('input', '.amount-input', calculateTotal);
+
+            // Trigger calculation and validation when currency changes
+            $('#Currency').change(calculateTotal);
+
+            // Add more expenses
+            /* Adds an event listener to the "Add More Expense" button. When the button is clicked, 
+            a new set of input fields for an additional expense is dynamically added to the form.
+            */
+            $('#add-more-expense').click(function () {
+                // Calculates the current number of expenses by counting how many .card elements exist in the #expenses-list container.
+                var index = $('#expenses-list .card').length;
+
+                // Create new expense card. Index is used to ensure new input fields have unique names and ids
+                var expenseHtml = `
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <label for="Expenses_${index}__Description" class="form-label">Description</label>
+                                <input type="text" class="form-control" id="Expenses_${index}__Description" name="Expenses[${index}].Description" required />
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="Expenses_${index}__Amount" class="form-label">Amount</label>
+                                <input type="number" step="0.01" class="form-control amount-input" id="Expenses_${index}__Amount" name="Expenses[${index}].Amount" required />
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="Expenses_${index}__Date" class="form-label">Date</label>
+                                <input type="date" class="form-control" id="Expenses_${index}__Date" name="Expenses[${index}].Date" required />
+                            </div>
+                        </div>
+                    </div>
+                `;
+                // Add new card to expenses-list container
+                $('#expenses-list').append(expenseHtml);
+            });
+
+            // Adds an event listener to the form's submit event.
+            $('form').submit(function(event) {
+                if (!calculateTotal()) {
+                    event.preventDefault(); // Prevent form submission if validation fails
+                }
+            });
+
+            calculateTotal();
+        });
+    </script>
+
+}

@@ -1,0 +1,40 @@
+﻿@model List<Expensify.Web.Models.ViewModels.ExpenseFormViewModel>
+
+<div class="container py-5">
+    <h1 class="mb-4">Expenses to be Paid</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Submission Date</th>
+                <th>Total Amount</th>
+                <th>Currency</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var expenseForm in Model)
+            {
+                <tr>
+                    <td>@expenseForm.SubmissionDate.ToString("yyyy-MM-dd")</td>
+                    <td>@expenseForm.Expenses.Sum(e => e.Amount)</td>
+                    <td>@expenseForm.Currency</td>
+                    <td>
+                        <a href="@Url.Action("ViewExpenseFormDetails", "ExpenseForms", new { id = expenseForm.Id })" class="btn btn-info btn-sm">View Details</a>
+                        <form asp-action="MarkAsPaid" method="post" class="d-inline">
+                            <input type="hidden" name="id" value="@expenseForm.Id" />
+                            <button type="submit" class="btn btn-success btn-sm">Mark as Paid</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success mt-3">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+</div>

@@ -1,0 +1,93 @@
+﻿@model Expensify.Web.Models.ViewModels.AdminReportViewModel
+
+<h2 class="mb-4 text-center">Expense Type Summary</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    Summary
+                </div>
+                <div class="card-body">
+                    <p><strong>Total Expenses: </strong> <span class="text-success">@Model.TotalExpenses.ToString("C")</span></p>
+                    <p><strong>Created Forms: </strong> @Model.CreatedFormsCount</p>
+                    <p><strong>Approved Forms: </strong> @Model.ApprovedFormsCount</p>
+                    <p><strong>Rejected Forms: </strong> @Model.RejectedFormsCount</p>
+                    <p><strong>Paid Forms: </strong> @Model.PaidFormsCount</p>
+                    <p><strong>Updated Forms: </strong> @Model.UpdatedFormsCount</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-10 offset-md-1">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    Forms Overview
+                </div>
+                <div class="card-body">
+                    <canvas id="expenseFormsChart" width="400" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Include Chart.js library -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    var ctx = document.getElementById('expenseFormsChart').getContext('2d');
+    var expenseFormsChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Created', 'Approved', 'Rejected', 'Paid', 'Updated'],
+            datasets: [{
+                label: '# of Forms',
+                data: [
+                    @Model.CreatedFormsCount,
+                    @Model.ApprovedFormsCount,
+                    @Model.RejectedFormsCount,
+                    @Model.PaidFormsCount,
+                    @Model.UpdatedFormsCount
+                    ],
+                backgroundColor: [
+                    'rgba(75, 192, 192, 0.6)',
+                    'rgba(54, 162, 235, 0.6)',
+                    'rgba(255, 99, 132, 0.6)',
+                    'rgba(153, 102, 255, 0.6)',
+                    'rgba(255, 159, 64, 0.6)'
+                ],
+                borderColor: [
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    max: Math.max(
+                        @Model.CreatedFormsCount,
+                        @Model.ApprovedFormsCount,
+                        @Model.RejectedFormsCount,
+                        @Model.PaidFormsCount,
+                        @Model.UpdatedFormsCount
+                        ) + 1 // Dynamically adjust max value
+                }
+            },
+            plugins: {
+                legend: {
+                    display: false // Hide legend for a cleaner look
+                }
+            }
+        }
+    });
+</script>

@@ -1,0 +1,23 @@
+2024-10-03 00:23:17.641 +03:00 [INF] User profile is available. Using 'C:\Users\fatih.celik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-03 00:23:17.815 +03:00 [INF] Now listening on: https://localhost:7189
+2024-10-03 00:23:17.818 +03:00 [INF] Now listening on: http://localhost:5289
+2024-10-03 00:23:17.841 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-03 00:23:17.843 +03:00 [INF] Hosting environment: Development
+2024-10-03 00:23:17.845 +03:00 [INF] Content root path: C:\Users\fatih.celik\OneDrive - VERIPARK\Desktop\Expensify\Expensify\Expensify.Web
+2024-10-03 00:23:18.367 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ - null null
+2024-10-03 00:23:18.611 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-03 00:23:18.638 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Expensify.Web.Controllers.HomeController (Expensify.Web).
+2024-10-03 00:23:18.686 +03:00 [INF] Executing action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web) - Validation state: "Valid"
+2024-10-03 00:23:18.692 +03:00 [INF] Executed action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4287ms.
+2024-10-03 00:23:18.703 +03:00 [INF] Executing ViewResult, running view Index.
+2024-10-03 00:23:18.875 +03:00 [INF] Executed ViewResult - view Index executed in 173.7351ms.
+2024-10-03 00:23:18.880 +03:00 [INF] Executed action Expensify.Web.Controllers.HomeController.Index (Expensify.Web) in 239.0677ms
+2024-10-03 00:23:18.883 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-03 00:23:18.886 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-03 00:23:18.886 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/Expensify.Web.styles.css?v=yPQhX02gm2I2RxIvdAfs7uoZUSiPOy6A6IwceaHca4M - null null
+2024-10-03 00:23:18.896 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-03 00:23:18.900 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ - 200 null text/html; charset=utf-8 547.1557ms
+2024-10-03 00:23:18.908 +03:00 [INF] The file /Expensify.Web.styles.css was not modified
+2024-10-03 00:23:18.912 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 25.8267ms
+2024-10-03 00:23:18.912 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/Expensify.Web.styles.css?v=yPQhX02gm2I2RxIvdAfs7uoZUSiPOy6A6IwceaHca4M - 304 null text/css 26.1313ms
+2024-10-03 00:23:18.939 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.2273ms

@@ -1,0 +1,696 @@
+2024-10-02 16:16:46.458 +03:00 [INF] User profile is available. Using 'C:\Users\fatih.celik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-02 16:16:46.720 +03:00 [INF] Now listening on: https://localhost:7189
+2024-10-02 16:16:46.724 +03:00 [INF] Now listening on: http://localhost:5289
+2024-10-02 16:16:46.761 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-02 16:16:46.764 +03:00 [INF] Hosting environment: Development
+2024-10-02 16:16:46.765 +03:00 [INF] Content root path: C:\Users\fatih.celik\OneDrive - VERIPARK\Desktop\Expensify\Expensify\Expensify.Web
+2024-10-02 16:16:47.194 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ - null null
+2024-10-02 16:16:47.398 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:16:47.431 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Expensify.Web.Controllers.HomeController (Expensify.Web).
+2024-10-02 16:16:47.482 +03:00 [INF] Executing action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:16:47.491 +03:00 [INF] Executed action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.3194ms.
+2024-10-02 16:16:47.497 +03:00 [INF] Executing ViewResult, running view Index.
+2024-10-02 16:16:47.665 +03:00 [INF] Executed ViewResult - view Index executed in 167.7749ms.
+2024-10-02 16:16:47.671 +03:00 [INF] Executed action Expensify.Web.Controllers.HomeController.Index (Expensify.Web) in 236.6956ms
+2024-10-02 16:16:47.676 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:16:47.680 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:16:47.681 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/Expensify.Web.styles.css?v=yPQhX02gm2I2RxIvdAfs7uoZUSiPOy6A6IwceaHca4M - null null
+2024-10-02 16:16:47.681 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:16:47.691 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ - 200 null text/html; charset=utf-8 506.5103ms
+2024-10-02 16:16:47.700 +03:00 [INF] The file /Expensify.Web.styles.css was not modified
+2024-10-02 16:16:47.704 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/Expensify.Web.styles.css?v=yPQhX02gm2I2RxIvdAfs7uoZUSiPOy6A6IwceaHca4M - 304 null text/css 24.1135ms
+2024-10-02 16:16:47.708 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 27.9521ms
+2024-10-02 16:16:47.742 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.0205ms
+2024-10-02 16:16:49.192 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/Account/Login - null null
+2024-10-02 16:16:49.222 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:16:49.226 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-02 16:16:49.246 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:16:49.248 +03:00 [INF] Login page accessed.
+2024-10-02 16:16:49.251 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.6916ms.
+2024-10-02 16:16:49.255 +03:00 [INF] Executing ViewResult, running view Login.
+2024-10-02 16:16:49.298 +03:00 [INF] Executed ViewResult - view Login executed in 43.9485ms.
+2024-10-02 16:16:49.304 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:16:49.304 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:16:49.318 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Login (Expensify.Web) in 89.2817ms
+2024-10-02 16:16:49.315 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.3323ms
+2024-10-02 16:16:49.325 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:16:49.331 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/Account/Login - 200 null text/html; charset=utf-8 138.5513ms
+2024-10-02 16:16:49.344 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.8864ms
+2024-10-02 16:16:58.685 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7189/Account/Login - application/x-www-form-urlencoded 255
+2024-10-02 16:16:58.718 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:16:58.741 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Expensify.Web.Models.ViewModels.LoginViewModel) on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-02 16:16:58.800 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:16:58.805 +03:00 [INF] Login attempt for user employee1@expensify.com.
+2024-10-02 16:16:59.938 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Expense'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-10-02 16:17:00.611 +03:00 [INF] Executed DbCommand (42ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-10-02 16:17:00.827 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-10-02 16:17:00.853 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-10-02 16:17:00.864 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-10-02 16:17:00.883 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-10-02 16:17:00.892 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-10-02 16:17:00.896 +03:00 [INF] User employee1@expensify.com successfully logged in.
+2024-10-02 16:17:00.898 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 2094.7032ms.
+2024-10-02 16:17:00.903 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2024-10-02 16:17:00.906 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Login (Expensify.Web) in 2160.3154ms
+2024-10-02 16:17:00.908 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:17:00.914 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ - null null
+2024-10-02 16:17:00.917 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7189/Account/Login - 302 0 null 2232.2721ms
+2024-10-02 16:17:00.941 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:17:00.944 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Expensify.Web.Controllers.HomeController (Expensify.Web).
+2024-10-02 16:17:00.956 +03:00 [INF] Executing action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:17:00.958 +03:00 [INF] Executed action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0199ms.
+2024-10-02 16:17:00.960 +03:00 [INF] Executing ViewResult, running view Index.
+2024-10-02 16:17:01.034 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-02 16:17:01.044 +03:00 [INF] Executed ViewResult - view Index executed in 84.3477ms.
+2024-10-02 16:17:01.048 +03:00 [INF] Executed action Expensify.Web.Controllers.HomeController.Index (Expensify.Web) in 100.1169ms
+2024-10-02 16:17:01.052 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:17:01.054 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:17:01.054 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:17:01.055 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ - 200 null text/html; charset=utf-8 141.8066ms
+2024-10-02 16:17:01.062 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 9.0865ms
+2024-10-02 16:17:01.070 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.5607ms
+2024-10-02 16:21:29.375 +03:00 [INF] User profile is available. Using 'C:\Users\fatih.celik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-02 16:21:29.559 +03:00 [INF] Now listening on: https://localhost:7189
+2024-10-02 16:21:29.561 +03:00 [INF] Now listening on: http://localhost:5289
+2024-10-02 16:21:29.584 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-02 16:21:29.587 +03:00 [INF] Hosting environment: Development
+2024-10-02 16:21:29.589 +03:00 [INF] Content root path: C:\Users\fatih.celik\OneDrive - VERIPARK\Desktop\Expensify\Expensify\Expensify.Web
+2024-10-02 16:21:29.944 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ - null null
+2024-10-02 16:21:30.295 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:21:30.309 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Expensify.Web.Controllers.HomeController (Expensify.Web).
+2024-10-02 16:21:30.348 +03:00 [INF] Executing action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:21:30.357 +03:00 [INF] Executed action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.1958ms.
+2024-10-02 16:21:30.371 +03:00 [INF] Executing ViewResult, running view Index.
+2024-10-02 16:21:31.250 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Expense'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-10-02 16:21:31.772 +03:00 [INF] Executed DbCommand (28ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-02 16:21:31.861 +03:00 [INF] Executed ViewResult - view Index executed in 1495.7389ms.
+2024-10-02 16:21:31.869 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:21:31.871 +03:00 [INF] Executed action Expensify.Web.Controllers.HomeController.Index (Expensify.Web) in 1559.3702ms
+2024-10-02 16:21:31.872 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:21:31.876 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:21:31.891 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 21.3628ms
+2024-10-02 16:21:31.917 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ - 200 null text/html; charset=utf-8 1978.3305ms
+2024-10-02 16:21:31.936 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 63.8462ms
+2024-10-02 16:21:34.106 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7189/Account/Logout - application/x-www-form-urlencoded 225
+2024-10-02 16:21:34.141 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Logout (Expensify.Web)'
+2024-10-02 16:21:34.149 +03:00 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-02 16:21:34.162 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Logout (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:21:34.166 +03:00 [INF] User logged out.
+2024-10-02 16:21:34.170 +03:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-10-02 16:21:34.173 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-10-02 16:21:34.174 +03:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-10-02 16:21:34.176 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Logout (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 11.9525ms.
+2024-10-02 16:21:34.179 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2024-10-02 16:21:34.182 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Logout (Expensify.Web) in 30.1985ms
+2024-10-02 16:21:34.184 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Logout (Expensify.Web)'
+2024-10-02 16:21:34.186 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7189/Account/Logout - 302 0 null 79.3539ms
+2024-10-02 16:21:34.189 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ - null null
+2024-10-02 16:21:34.208 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:21:34.209 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Expensify.Web.Controllers.HomeController (Expensify.Web).
+2024-10-02 16:21:34.221 +03:00 [INF] Executing action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:21:34.223 +03:00 [INF] Executed action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0435ms.
+2024-10-02 16:21:34.225 +03:00 [INF] Executing ViewResult, running view Index.
+2024-10-02 16:21:34.238 +03:00 [INF] Executed ViewResult - view Index executed in 13.0746ms.
+2024-10-02 16:21:34.241 +03:00 [INF] Executed action Expensify.Web.Controllers.HomeController.Index (Expensify.Web) in 29.1176ms
+2024-10-02 16:21:34.243 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:21:34.244 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:21:34.244 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:21:34.246 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ - 200 null text/html; charset=utf-8 56.5542ms
+2024-10-02 16:21:34.250 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.4701ms
+2024-10-02 16:21:34.272 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.5118ms
+2024-10-02 16:21:36.231 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/Account/Login - null null
+2024-10-02 16:21:36.258 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:21:36.262 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-02 16:21:36.274 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:21:36.277 +03:00 [INF] Login page accessed.
+2024-10-02 16:21:36.278 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.7976ms.
+2024-10-02 16:21:36.283 +03:00 [INF] Executing ViewResult, running view Login.
+2024-10-02 16:21:36.318 +03:00 [INF] Executed ViewResult - view Login executed in 35.4606ms.
+2024-10-02 16:21:36.321 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Login (Expensify.Web) in 55.5176ms
+2024-10-02 16:21:36.324 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:21:36.324 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:21:36.324 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:21:36.326 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/Account/Login - 200 null text/html; charset=utf-8 94.9049ms
+2024-10-02 16:21:36.329 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 5.4504ms
+2024-10-02 16:21:36.343 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.5283ms
+2024-10-02 16:21:45.664 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7189/Account/Login - application/x-www-form-urlencoded 234
+2024-10-02 16:21:45.685 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:21:45.701 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Expensify.Web.Models.ViewModels.LoginViewModel) on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-02 16:21:45.735 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:21:45.740 +03:00 [INF] Login attempt for user asd@gmail.com.
+2024-10-02 16:21:45.810 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-10-02 16:21:45.816 +03:00 [WRN] Invalid login attempt for user asd@gmail.com.
+2024-10-02 16:21:45.819 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 79.9196ms.
+2024-10-02 16:21:45.822 +03:00 [INF] Executing ViewResult, running view Login.
+2024-10-02 16:21:45.830 +03:00 [INF] Executed ViewResult - view Login executed in 7.728ms.
+2024-10-02 16:21:45.832 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Login (Expensify.Web) in 128.4035ms
+2024-10-02 16:21:45.835 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:21:45.837 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:21:45.837 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:21:45.838 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7189/Account/Login - 200 null text/html; charset=utf-8 174.0112ms
+2024-10-02 16:21:45.849 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.9759ms
+2024-10-02 16:21:45.855 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.5081ms
+2024-10-02 16:22:09.571 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7189/Account/Login - application/x-www-form-urlencoded 255
+2024-10-02 16:22:09.614 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:22:09.617 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Expensify.Web.Models.ViewModels.LoginViewModel) on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-02 16:22:09.630 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:22:09.633 +03:00 [INF] Login attempt for user employee1@expensify.com.
+2024-10-02 16:22:09.651 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-10-02 16:22:09.777 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-10-02 16:22:09.821 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-10-02 16:22:09.834 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-10-02 16:22:09.857 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-10-02 16:22:09.864 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-10-02 16:22:09.868 +03:00 [INF] User employee1@expensify.com successfully logged in.
+2024-10-02 16:22:09.870 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 237.1464ms.
+2024-10-02 16:22:09.873 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2024-10-02 16:22:09.876 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Login (Expensify.Web) in 255.6583ms
+2024-10-02 16:22:09.879 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:22:09.883 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7189/Account/Login - 302 0 null 312.2338ms
+2024-10-02 16:22:09.888 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ - null null
+2024-10-02 16:22:09.917 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:22:09.919 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Expensify.Web.Controllers.HomeController (Expensify.Web).
+2024-10-02 16:22:09.930 +03:00 [INF] Executing action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:22:09.932 +03:00 [INF] Executed action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0227ms.
+2024-10-02 16:22:09.935 +03:00 [INF] Executing ViewResult, running view Index.
+2024-10-02 16:22:09.940 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-02 16:22:09.944 +03:00 [INF] Executed ViewResult - view Index executed in 9.8351ms.
+2024-10-02 16:22:09.947 +03:00 [INF] Executed action Expensify.Web.Controllers.HomeController.Index (Expensify.Web) in 25.3745ms
+2024-10-02 16:22:09.952 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:22:09.956 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:22:09.956 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:22:09.957 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ - 200 null text/html; charset=utf-8 68.5397ms
+2024-10-02 16:22:09.980 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 24.7927ms
+2024-10-02 16:22:09.992 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.2108ms
+2024-10-02 16:26:32.492 +03:00 [INF] User profile is available. Using 'C:\Users\fatih.celik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-02 16:26:32.664 +03:00 [INF] Now listening on: https://localhost:7189
+2024-10-02 16:26:32.666 +03:00 [INF] Now listening on: http://localhost:5289
+2024-10-02 16:26:32.687 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-02 16:26:32.689 +03:00 [INF] Hosting environment: Development
+2024-10-02 16:26:32.691 +03:00 [INF] Content root path: C:\Users\fatih.celik\OneDrive - VERIPARK\Desktop\Expensify\Expensify\Expensify.Web
+2024-10-02 16:26:33.232 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ - null null
+2024-10-02 16:26:33.612 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:26:33.625 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Expensify.Web.Controllers.HomeController (Expensify.Web).
+2024-10-02 16:26:33.664 +03:00 [INF] Executing action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:26:33.670 +03:00 [INF] Executed action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.492ms.
+2024-10-02 16:26:33.680 +03:00 [INF] Executing ViewResult, running view Index.
+2024-10-02 16:26:34.492 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Expense'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-10-02 16:26:35.015 +03:00 [INF] Executed DbCommand (35ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-02 16:26:35.150 +03:00 [INF] Executed ViewResult - view Index executed in 1468.0553ms.
+2024-10-02 16:26:35.152 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:26:35.154 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:26:35.163 +03:00 [INF] Executed action Expensify.Web.Controllers.HomeController.Index (Expensify.Web) in 1535.2196ms
+2024-10-02 16:26:35.173 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:26:35.181 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 24.1627ms
+2024-10-02 16:26:35.196 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ - 200 null text/html; charset=utf-8 1968.3379ms
+2024-10-02 16:26:35.219 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 64.6677ms
+2024-10-02 16:26:54.610 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7189/Account/Logout - application/x-www-form-urlencoded 225
+2024-10-02 16:26:54.658 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Logout (Expensify.Web)'
+2024-10-02 16:26:54.668 +03:00 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-02 16:26:54.683 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Logout (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:26:54.687 +03:00 [INF] User logged out.
+2024-10-02 16:26:54.693 +03:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-10-02 16:26:54.697 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-10-02 16:26:54.699 +03:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-10-02 16:26:54.702 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Logout (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 15.4532ms.
+2024-10-02 16:26:54.704 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2024-10-02 16:26:54.707 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Logout (Expensify.Web) in 35.8656ms
+2024-10-02 16:26:54.709 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Logout (Expensify.Web)'
+2024-10-02 16:26:54.711 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7189/Account/Logout - 302 0 null 101.8766ms
+2024-10-02 16:26:54.715 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ - null null
+2024-10-02 16:26:54.732 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:26:54.734 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Expensify.Web.Controllers.HomeController (Expensify.Web).
+2024-10-02 16:26:54.747 +03:00 [INF] Executing action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:26:54.749 +03:00 [INF] Executed action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0492ms.
+2024-10-02 16:26:54.752 +03:00 [INF] Executing ViewResult, running view Index.
+2024-10-02 16:26:54.770 +03:00 [INF] Executed ViewResult - view Index executed in 18.0955ms.
+2024-10-02 16:26:54.773 +03:00 [INF] Executed action Expensify.Web.Controllers.HomeController.Index (Expensify.Web) in 36.0638ms
+2024-10-02 16:26:54.776 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:26:54.777 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:26:54.777 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:26:54.780 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ - 200 null text/html; charset=utf-8 64.8671ms
+2024-10-02 16:26:54.792 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 15.1627ms
+2024-10-02 16:26:54.810 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.48ms
+2024-10-02 16:26:56.099 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/Account/Login - null null
+2024-10-02 16:26:56.126 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:26:56.132 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-02 16:26:56.145 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:26:56.149 +03:00 [INF] Login page accessed.
+2024-10-02 16:26:56.152 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.7166ms.
+2024-10-02 16:26:56.155 +03:00 [INF] Executing ViewResult, running view Login.
+2024-10-02 16:26:56.195 +03:00 [INF] Executed ViewResult - view Login executed in 40.9528ms.
+2024-10-02 16:26:56.198 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Login (Expensify.Web) in 63.1385ms
+2024-10-02 16:26:56.201 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:26:56.201 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:26:56.201 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:26:56.203 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/Account/Login - 200 null text/html; charset=utf-8 104.3873ms
+2024-10-02 16:26:56.213 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.1891ms
+2024-10-02 16:26:56.220 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.7335ms
+2024-10-02 16:27:01.587 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7189/Account/Login - application/x-www-form-urlencoded 255
+2024-10-02 16:27:01.609 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:27:01.627 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Expensify.Web.Models.ViewModels.LoginViewModel) on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-02 16:27:01.666 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:27:01.670 +03:00 [INF] Login attempt for user employee1@expensify.com.
+2024-10-02 16:27:01.745 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-10-02 16:27:01.867 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-10-02 16:27:01.896 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-10-02 16:27:01.908 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-10-02 16:27:01.928 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-10-02 16:27:01.935 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-10-02 16:27:01.938 +03:00 [INF] User employee1@expensify.com successfully logged in.
+2024-10-02 16:27:01.941 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 272.7614ms.
+2024-10-02 16:27:01.945 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2024-10-02 16:27:01.948 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Login (Expensify.Web) in 317.1059ms
+2024-10-02 16:27:01.950 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:27:01.952 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7189/Account/Login - 302 0 null 365.1707ms
+2024-10-02 16:27:01.955 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ - null null
+2024-10-02 16:27:01.971 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:27:01.973 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Expensify.Web.Controllers.HomeController (Expensify.Web).
+2024-10-02 16:27:01.985 +03:00 [INF] Executing action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:27:01.987 +03:00 [INF] Executed action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0239ms.
+2024-10-02 16:27:01.989 +03:00 [INF] Executing ViewResult, running view Index.
+2024-10-02 16:27:02.007 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-02 16:27:02.012 +03:00 [INF] Executed ViewResult - view Index executed in 23.2185ms.
+2024-10-02 16:27:02.015 +03:00 [INF] Executed action Expensify.Web.Controllers.HomeController.Index (Expensify.Web) in 39.0137ms
+2024-10-02 16:27:02.019 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:27:02.023 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:27:02.023 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:27:02.023 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ - 200 null text/html; charset=utf-8 67.9148ms
+2024-10-02 16:27:02.027 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.7798ms
+2024-10-02 16:27:02.044 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.5436ms
+2024-10-02 16:27:15.476 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ExpenseForms/Add - null null
+2024-10-02 16:27:15.508 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.ExpenseFormsController.Add (Expensify.Web)'
+2024-10-02 16:27:15.514 +03:00 [INF] Route matched with {action = "Add", controller = "ExpenseForms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add() on controller Expensify.Web.Controllers.ExpenseFormsController (Expensify.Web).
+2024-10-02 16:27:15.526 +03:00 [INF] Executing action method Expensify.Web.Controllers.ExpenseFormsController.Add (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:27:15.530 +03:00 [INF] Entering Add expense form view
+2024-10-02 16:27:15.534 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-02 16:27:15.538 +03:00 [INF] Creating new expense form for employee with ID: 23f1b176-d123-4d55-95be-b7d353c77de9
+2024-10-02 16:27:15.541 +03:00 [INF] Executed action method Expensify.Web.Controllers.ExpenseFormsController.Add (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 12.341ms.
+2024-10-02 16:27:15.544 +03:00 [INF] Executing ViewResult, running view Add.
+2024-10-02 16:27:15.563 +03:00 [INF] Executed ViewResult - view Add executed in 19.8098ms.
+2024-10-02 16:27:15.565 +03:00 [INF] Executed action Expensify.Web.Controllers.ExpenseFormsController.Add (Expensify.Web) in 48.9556ms
+2024-10-02 16:27:15.567 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.ExpenseFormsController.Add (Expensify.Web)'
+2024-10-02 16:27:15.570 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:27:15.570 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:27:15.571 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ExpenseForms/Add - 200 null text/html; charset=utf-8 95.1536ms
+2024-10-02 16:27:15.575 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 5.7395ms
+2024-10-02 16:27:15.594 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.3444ms
+2024-10-02 16:27:17.323 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ExpenseForms/List - null null
+2024-10-02 16:27:17.346 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web)'
+2024-10-02 16:27:17.365 +03:00 [INF] Route matched with {action = "List", controller = "ExpenseForms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List(Expensify.Web.Models.ViewModels.ExpenseFormFilterViewModel) on controller Expensify.Web.Controllers.ExpenseFormsController (Expensify.Web).
+2024-10-02 16:27:17.383 +03:00 [INF] Executing action method Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web) - Validation state: "Invalid"
+2024-10-02 16:27:17.388 +03:00 [INF] Fetching the current user for expense form list.
+2024-10-02 16:27:17.394 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-02 16:27:17.398 +03:00 [INF] Fetching all expense forms for the current user.
+2024-10-02 16:27:17.464 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ToString_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[AccountantId], [e].[Currency], [e].[EmployeeId], [e].[IsApprovedByManager], [e].[IsPaidByAccountant], [e].[IsRejectedByManager], [e].[ManagerId], [e].[RejectionReason], [e].[SubmissionDate], [a].[Id], [a0].[Id], [e0].[Id], [e0].[Amount], [e0].[Date], [e0].[Description], [e0].[ExpenseFormId], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[ManagerId], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+FROM [ExpenseForms] AS [e]
+INNER JOIN [AspNetUsers] AS [a] ON [e].[EmployeeId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [e].[ManagerId] = [a0].[Id]
+LEFT JOIN [Expenses] AS [e0] ON [e].[Id] = [e0].[ExpenseFormId]
+WHERE [e].[EmployeeId] = @__ToString_0
+ORDER BY [e].[Id], [a].[Id], [a0].[Id]
+2024-10-02 16:27:17.529 +03:00 [INF] Applying filters for the expense forms.
+2024-10-02 16:27:17.532 +03:00 [INF] Returning filtered expense forms.
+2024-10-02 16:27:17.536 +03:00 [INF] Executed action method Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 150.786ms.
+2024-10-02 16:27:17.539 +03:00 [INF] Executing ViewResult, running view List.
+2024-10-02 16:27:17.571 +03:00 [INF] Executed ViewResult - view List executed in 32.0049ms.
+2024-10-02 16:27:17.574 +03:00 [INF] Executed action Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web) in 204.1328ms
+2024-10-02 16:27:17.578 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.ExpenseFormsController.List (Expensify.Web)'
+2024-10-02 16:27:17.578 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:27:17.578 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:27:17.581 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ExpenseForms/List - 200 null text/html; charset=utf-8 257.5863ms
+2024-10-02 16:27:17.584 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 5.4251ms
+2024-10-02 16:27:17.594 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.3772ms
+2024-10-02 16:27:19.035 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ - null null
+2024-10-02 16:27:19.054 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:27:19.057 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Expensify.Web.Controllers.HomeController (Expensify.Web).
+2024-10-02 16:27:19.072 +03:00 [INF] Executing action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:27:19.074 +03:00 [INF] Executed action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0263ms.
+2024-10-02 16:27:19.076 +03:00 [INF] Executing ViewResult, running view Index.
+2024-10-02 16:27:19.081 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-02 16:27:19.087 +03:00 [INF] Executed ViewResult - view Index executed in 11.082ms.
+2024-10-02 16:27:19.090 +03:00 [INF] Executed action Expensify.Web.Controllers.HomeController.Index (Expensify.Web) in 29.689ms
+2024-10-02 16:27:19.093 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:27:19.096 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:27:19.096 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:27:19.096 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ - 200 null text/html; charset=utf-8 61.7988ms
+2024-10-02 16:27:19.101 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 5.1503ms
+2024-10-02 16:27:19.112 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.1978ms
+2024-10-02 16:47:24.600 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7189/Account/Logout - application/x-www-form-urlencoded 225
+2024-10-02 16:47:24.635 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Logout (Expensify.Web)'
+2024-10-02 16:47:24.638 +03:00 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-02 16:47:24.649 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Logout (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:47:24.652 +03:00 [INF] User logged out.
+2024-10-02 16:47:24.654 +03:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-10-02 16:47:24.656 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-10-02 16:47:24.658 +03:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-10-02 16:47:24.660 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Logout (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 8.1872ms.
+2024-10-02 16:47:24.664 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2024-10-02 16:47:24.666 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Logout (Expensify.Web) in 25.7425ms
+2024-10-02 16:47:24.668 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Logout (Expensify.Web)'
+2024-10-02 16:47:24.670 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7189/Account/Logout - 302 0 null 70.4752ms
+2024-10-02 16:47:24.673 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ - null null
+2024-10-02 16:47:24.686 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:47:24.688 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Expensify.Web.Controllers.HomeController (Expensify.Web).
+2024-10-02 16:47:24.698 +03:00 [INF] Executing action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:47:24.700 +03:00 [INF] Executed action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0232ms.
+2024-10-02 16:47:24.703 +03:00 [INF] Executing ViewResult, running view Index.
+2024-10-02 16:47:24.707 +03:00 [INF] Executed ViewResult - view Index executed in 5.1669ms.
+2024-10-02 16:47:24.714 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:47:24.716 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:47:24.715 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/Expensify.Web.styles.css?v=yPQhX02gm2I2RxIvdAfs7uoZUSiPOy6A6IwceaHca4M - null null
+2024-10-02 16:47:24.716 +03:00 [INF] Executed action Expensify.Web.Controllers.HomeController.Index (Expensify.Web) in 25.9331ms
+2024-10-02 16:47:24.724 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 10.093ms
+2024-10-02 16:47:24.746 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:47:24.754 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.4598ms
+2024-10-02 16:47:24.757 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ - 200 null text/html; charset=utf-8 84.4433ms
+2024-10-02 16:47:24.759 +03:00 [INF] The file /Expensify.Web.styles.css was not modified
+2024-10-02 16:47:24.765 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/Expensify.Web.styles.css?v=yPQhX02gm2I2RxIvdAfs7uoZUSiPOy6A6IwceaHca4M - 304 null text/css 50.319ms
+2024-10-02 16:47:29.596 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/Account/Login - null null
+2024-10-02 16:47:29.620 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:47:29.622 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-02 16:47:29.635 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:47:29.637 +03:00 [INF] Login page accessed.
+2024-10-02 16:47:29.638 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.4457ms.
+2024-10-02 16:47:29.641 +03:00 [INF] Executing ViewResult, running view Login.
+2024-10-02 16:47:29.647 +03:00 [INF] Executed ViewResult - view Login executed in 6.4297ms.
+2024-10-02 16:47:29.649 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Login (Expensify.Web) in 23.9261ms
+2024-10-02 16:47:29.652 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:47:29.653 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:47:29.654 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:47:29.654 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/Account/Login - 200 null text/html; charset=utf-8 59.1228ms
+2024-10-02 16:47:29.658 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.743ms
+2024-10-02 16:47:29.670 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.1908ms
+2024-10-02 16:47:37.733 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7189/Account/Login - application/x-www-form-urlencoded 254
+2024-10-02 16:47:37.754 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:47:37.756 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Expensify.Web.Models.ViewModels.LoginViewModel) on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-02 16:47:37.770 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:47:37.773 +03:00 [INF] Login attempt for user manager1@expensify.com.
+2024-10-02 16:47:37.787 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-10-02 16:47:37.873 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-10-02 16:47:37.878 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-10-02 16:47:37.882 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-10-02 16:47:37.887 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-10-02 16:47:37.893 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-10-02 16:47:37.895 +03:00 [INF] User manager1@expensify.com successfully logged in.
+2024-10-02 16:47:37.898 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 125.4126ms.
+2024-10-02 16:47:37.901 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2024-10-02 16:47:37.904 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Login (Expensify.Web) in 143.8652ms
+2024-10-02 16:47:37.909 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:47:37.912 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7189/Account/Login - 302 0 null 178.9658ms
+2024-10-02 16:47:37.917 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ - null null
+2024-10-02 16:47:37.933 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:47:37.935 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Expensify.Web.Controllers.HomeController (Expensify.Web).
+2024-10-02 16:47:37.947 +03:00 [INF] Executing action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:47:37.949 +03:00 [INF] Executed action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0231ms.
+2024-10-02 16:47:37.951 +03:00 [INF] Executing ViewResult, running view Index.
+2024-10-02 16:47:37.956 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-02 16:47:37.962 +03:00 [INF] Executed ViewResult - view Index executed in 10.8818ms.
+2024-10-02 16:47:37.965 +03:00 [INF] Executed action Expensify.Web.Controllers.HomeController.Index (Expensify.Web) in 27.0027ms
+2024-10-02 16:47:37.969 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:47:37.974 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:47:37.974 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:47:37.975 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ - 200 null text/html; charset=utf-8 57.3567ms
+2024-10-02 16:47:37.980 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.2731ms
+2024-10-02 16:47:38.006 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.156ms
+2024-10-02 16:47:46.026 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7189/Account/Logout - application/x-www-form-urlencoded 225
+2024-10-02 16:47:46.049 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Logout (Expensify.Web)'
+2024-10-02 16:47:46.051 +03:00 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-02 16:47:46.064 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Logout (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:47:46.066 +03:00 [INF] User logged out.
+2024-10-02 16:47:46.068 +03:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-10-02 16:47:46.071 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-10-02 16:47:46.073 +03:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-10-02 16:47:46.075 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Logout (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 8.5014ms.
+2024-10-02 16:47:46.077 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2024-10-02 16:47:46.079 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Logout (Expensify.Web) in 22.7803ms
+2024-10-02 16:47:46.080 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Logout (Expensify.Web)'
+2024-10-02 16:47:46.082 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7189/Account/Logout - 302 0 null 55.9209ms
+2024-10-02 16:47:46.084 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ - null null
+2024-10-02 16:47:46.100 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:47:46.102 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Expensify.Web.Controllers.HomeController (Expensify.Web).
+2024-10-02 16:47:46.112 +03:00 [INF] Executing action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:47:46.115 +03:00 [INF] Executed action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0216ms.
+2024-10-02 16:47:46.117 +03:00 [INF] Executing ViewResult, running view Index.
+2024-10-02 16:47:46.121 +03:00 [INF] Executed ViewResult - view Index executed in 3.6489ms.
+2024-10-02 16:47:46.123 +03:00 [INF] Executed action Expensify.Web.Controllers.HomeController.Index (Expensify.Web) in 18.5947ms
+2024-10-02 16:47:46.126 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:47:46.127 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:47:46.127 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:47:46.130 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ - 200 null text/html; charset=utf-8 45.2398ms
+2024-10-02 16:47:46.134 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.6892ms
+2024-10-02 16:47:46.149 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.9079ms
+2024-10-02 16:47:46.879 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/Account/Login - null null
+2024-10-02 16:47:46.900 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:47:46.902 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-02 16:47:46.916 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:47:46.919 +03:00 [INF] Login page accessed.
+2024-10-02 16:47:46.921 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.6753ms.
+2024-10-02 16:47:46.924 +03:00 [INF] Executing ViewResult, running view Login.
+2024-10-02 16:47:46.928 +03:00 [INF] Executed ViewResult - view Login executed in 3.974ms.
+2024-10-02 16:47:46.930 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Login (Expensify.Web) in 24.2859ms
+2024-10-02 16:47:46.934 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:47:46.934 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:47:46.935 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:47:46.938 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/Account/Login - 200 null text/html; charset=utf-8 59.3948ms
+2024-10-02 16:47:46.946 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.4408ms
+2024-10-02 16:47:46.953 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.5927ms
+2024-10-02 16:47:54.405 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7189/Account/Login - application/x-www-form-urlencoded 256
+2024-10-02 16:47:54.438 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:47:54.443 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Expensify.Web.Models.ViewModels.LoginViewModel) on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-02 16:47:54.473 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:47:54.478 +03:00 [INF] Login attempt for user accountant@expensify.com.
+2024-10-02 16:47:54.487 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-10-02 16:47:54.576 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-10-02 16:47:54.580 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-10-02 16:47:54.584 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-10-02 16:47:54.588 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-10-02 16:47:54.591 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-10-02 16:47:54.592 +03:00 [INF] User accountant@expensify.com successfully logged in.
+2024-10-02 16:47:54.594 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 116.0169ms.
+2024-10-02 16:47:54.596 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2024-10-02 16:47:54.598 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Login (Expensify.Web) in 151.2062ms
+2024-10-02 16:47:54.600 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:47:54.602 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7189/Account/Login - 302 0 null 197.7288ms
+2024-10-02 16:47:54.604 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ - null null
+2024-10-02 16:47:54.623 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:47:54.625 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Expensify.Web.Controllers.HomeController (Expensify.Web).
+2024-10-02 16:47:54.637 +03:00 [INF] Executing action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:47:54.640 +03:00 [INF] Executed action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0317ms.
+2024-10-02 16:47:54.643 +03:00 [INF] Executing ViewResult, running view Index.
+2024-10-02 16:47:54.647 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-02 16:47:54.652 +03:00 [INF] Executed ViewResult - view Index executed in 9.8671ms.
+2024-10-02 16:47:54.655 +03:00 [INF] Executed action Expensify.Web.Controllers.HomeController.Index (Expensify.Web) in 27.5649ms
+2024-10-02 16:47:54.657 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:47:54.662 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:47:54.662 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:47:54.663 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ - 200 null text/html; charset=utf-8 58.4204ms
+2024-10-02 16:47:54.671 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 9.5077ms
+2024-10-02 16:47:54.696 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.5345ms
+2024-10-02 16:48:00.194 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7189/Account/Logout - application/x-www-form-urlencoded 225
+2024-10-02 16:48:00.212 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Logout (Expensify.Web)'
+2024-10-02 16:48:00.215 +03:00 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-02 16:48:00.227 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Logout (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:48:00.229 +03:00 [INF] User logged out.
+2024-10-02 16:48:00.233 +03:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-10-02 16:48:00.236 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-10-02 16:48:00.239 +03:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-10-02 16:48:00.241 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Logout (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 12.7956ms.
+2024-10-02 16:48:00.244 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2024-10-02 16:48:00.246 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Logout (Expensify.Web) in 27.9751ms
+2024-10-02 16:48:00.248 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Logout (Expensify.Web)'
+2024-10-02 16:48:00.251 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7189/Account/Logout - 302 0 null 57.4742ms
+2024-10-02 16:48:00.255 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ - null null
+2024-10-02 16:48:00.272 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:48:00.274 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Expensify.Web.Controllers.HomeController (Expensify.Web).
+2024-10-02 16:48:00.286 +03:00 [INF] Executing action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:48:00.288 +03:00 [INF] Executed action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0236ms.
+2024-10-02 16:48:00.290 +03:00 [INF] Executing ViewResult, running view Index.
+2024-10-02 16:48:00.293 +03:00 [INF] Executed ViewResult - view Index executed in 2.8909ms.
+2024-10-02 16:48:00.297 +03:00 [INF] Executed action Expensify.Web.Controllers.HomeController.Index (Expensify.Web) in 20.5679ms
+2024-10-02 16:48:00.302 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:48:00.302 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:48:00.302 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:48:00.305 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ - 200 null text/html; charset=utf-8 49.9664ms
+2024-10-02 16:48:00.309 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.1209ms
+2024-10-02 16:48:00.326 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.2472ms
+2024-10-02 16:48:00.905 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/Account/Login - null null
+2024-10-02 16:48:00.923 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:48:00.925 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-02 16:48:00.938 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:48:00.940 +03:00 [INF] Login page accessed.
+2024-10-02 16:48:00.942 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.5869ms.
+2024-10-02 16:48:00.944 +03:00 [INF] Executing ViewResult, running view Login.
+2024-10-02 16:48:00.949 +03:00 [INF] Executed ViewResult - view Login executed in 5.0341ms.
+2024-10-02 16:48:00.952 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Login (Expensify.Web) in 23.7602ms
+2024-10-02 16:48:00.954 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:48:00.955 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:48:00.955 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:48:00.957 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/Account/Login - 200 null text/html; charset=utf-8 52.4996ms
+2024-10-02 16:48:00.961 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.1784ms
+2024-10-02 16:48:00.976 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.1438ms
+2024-10-02 16:48:06.530 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7189/Account/Login - application/x-www-form-urlencoded 251
+2024-10-02 16:48:06.548 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:48:06.551 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Expensify.Web.Models.ViewModels.LoginViewModel) on controller Expensify.Web.Controllers.AccountController (Expensify.Web).
+2024-10-02 16:48:06.563 +03:00 [INF] Executing action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:48:06.565 +03:00 [INF] Login attempt for user admin@expensify.com.
+2024-10-02 16:48:06.569 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-10-02 16:48:06.648 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-10-02 16:48:06.652 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-10-02 16:48:06.655 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-10-02 16:48:06.659 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2024-10-02 16:48:06.663 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-10-02 16:48:06.665 +03:00 [INF] User admin@expensify.com successfully logged in.
+2024-10-02 16:48:06.667 +03:00 [INF] Executed action method Expensify.Web.Controllers.AccountController.Login (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 101.7879ms.
+2024-10-02 16:48:06.670 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2024-10-02 16:48:06.672 +03:00 [INF] Executed action Expensify.Web.Controllers.AccountController.Login (Expensify.Web) in 118.448ms
+2024-10-02 16:48:06.674 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.AccountController.Login (Expensify.Web)'
+2024-10-02 16:48:06.675 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7189/Account/Login - 302 0 null 145.0969ms
+2024-10-02 16:48:06.679 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/ - null null
+2024-10-02 16:48:06.693 +03:00 [INF] Executing endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:48:06.695 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Expensify.Web.Controllers.HomeController (Expensify.Web).
+2024-10-02 16:48:06.705 +03:00 [INF] Executing action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web) - Validation state: "Valid"
+2024-10-02 16:48:06.707 +03:00 [INF] Executed action method Expensify.Web.Controllers.HomeController.Index (Expensify.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0199ms.
+2024-10-02 16:48:06.709 +03:00 [INF] Executing ViewResult, running view Index.
+2024-10-02 16:48:06.715 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-10-02 16:48:06.720 +03:00 [INF] Executed ViewResult - view Index executed in 10.2203ms.
+2024-10-02 16:48:06.722 +03:00 [INF] Executed action Expensify.Web.Controllers.HomeController.Index (Expensify.Web) in 24.5224ms
+2024-10-02 16:48:06.724 +03:00 [INF] Executed endpoint 'Expensify.Web.Controllers.HomeController.Index (Expensify.Web)'
+2024-10-02 16:48:06.728 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 16:48:06.728 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2024-10-02 16:48:06.729 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/ - 200 null text/html; charset=utf-8 49.3784ms
+2024-10-02 16:48:06.734 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 5.5469ms
+2024-10-02 16:48:06.753 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.791ms

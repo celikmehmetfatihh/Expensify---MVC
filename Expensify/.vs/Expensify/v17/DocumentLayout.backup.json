@@ -1,0 +1,266 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|c:\\users\\fatih.celik\\onedrive - veripark\\desktop\\expensify\\expensify\\expensify.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|solutionrelative:expensify.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|c:\\users\\fatih.celik\\onedrive - veripark\\desktop\\expensify\\expensify\\expensify.web\\controllers\\expenseformscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|solutionrelative:expensify.web\\controllers\\expenseformscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|c:\\users\\fatih.celik\\onedrive - veripark\\desktop\\expensify\\expensify\\expensify.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|solutionrelative:expensify.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|c:\\users\\fatih.celik\\onedrive - veripark\\desktop\\expensify\\expensify\\expensify.web\\views\\expenseforms\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|solutionrelative:expensify.web\\views\\expenseforms\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|c:\\users\\fatih.celik\\onedrive - veripark\\desktop\\expensify\\expensify\\expensify.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|solutionrelative:expensify.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|c:\\users\\fatih.celik\\onedrive - veripark\\desktop\\expensify\\expensify\\expensify.web\\utilities\\filterhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|solutionrelative:expensify.web\\utilities\\filterhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|c:\\users\\fatih.celik\\onedrive - veripark\\desktop\\expensify\\expensify\\expensify.web\\data\\expensifydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|solutionrelative:expensify.web\\data\\expensifydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|c:\\users\\fatih.celik\\onedrive - veripark\\desktop\\expensify\\expensify\\expensify.web\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|solutionrelative:expensify.web\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|c:\\users\\fatih.celik\\onedrive - veripark\\desktop\\expensify\\expensify\\expensify.web\\views\\expenseforms\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|solutionrelative:expensify.web\\views\\expenseforms\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|c:\\users\\fatih.celik\\onedrive - veripark\\desktop\\expensify\\expensify\\expensify.web\\views\\expenseforms\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|solutionrelative:expensify.web\\views\\expenseforms\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|c:\\users\\fatih.celik\\onedrive - veripark\\desktop\\expensify\\expensify\\expensify.web\\views\\admin\\expenseformhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|solutionrelative:expensify.web\\views\\admin\\expenseformhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|c:\\users\\fatih.celik\\onedrive - veripark\\desktop\\expensify\\expensify\\expensify.web\\views\\admin\\expensetypesummary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|solutionrelative:expensify.web\\views\\admin\\expensetypesummary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|c:\\users\\fatih.celik\\onedrive - veripark\\desktop\\expensify\\expensify\\expensify.web\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|solutionrelative:expensify.web\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|c:\\users\\fatih.celik\\onedrive - veripark\\desktop\\expensify\\expensify\\expensify.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|solutionrelative:expensify.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|c:\\users\\fatih.celik\\onedrive - veripark\\desktop\\expensify\\expensify\\expensify.web\\models\\viewmodels\\adminreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B84FF4E-89CC-437C-8A4C-097F22489511}|Expensify.Web\\Expensify.Web.csproj|solutionrelative:expensify.web\\models\\viewmodels\\adminreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "Expensify.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\appsettings.json",
+              "RelativeToolTip": "Expensify.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-04T08:07:12.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Expensify.Web\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Expensify.Web\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T11:20:15.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FilterHelper.cs",
+              "DocumentMoniker": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Utilities\\FilterHelper.cs",
+              "RelativeDocumentMoniker": "Expensify.Web\\Utilities\\FilterHelper.cs",
+              "ToolTip": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Utilities\\FilterHelper.cs",
+              "RelativeToolTip": "Expensify.Web\\Utilities\\FilterHelper.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwEUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T11:19:37.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Expensify.Web\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Expensify.Web\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T11:01:19.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExpensifyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Data\\ExpensifyDbContext.cs",
+              "RelativeDocumentMoniker": "Expensify.Web\\Data\\ExpensifyDbContext.cs",
+              "ToolTip": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Data\\ExpensifyDbContext.cs",
+              "RelativeToolTip": "Expensify.Web\\Data\\ExpensifyDbContext.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T11:01:10.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Expensify.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Program.cs",
+              "RelativeToolTip": "Expensify.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T11:00:36.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Views\\ExpenseForms\\List.cshtml",
+              "RelativeDocumentMoniker": "Expensify.Web\\Views\\ExpenseForms\\List.cshtml",
+              "ToolTip": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Views\\ExpenseForms\\List.cshtml",
+              "RelativeToolTip": "Expensify.Web\\Views\\ExpenseForms\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T10:58:23.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Views\\ExpenseForms\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Expensify.Web\\Views\\ExpenseForms\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Views\\ExpenseForms\\Edit.cshtml",
+              "RelativeToolTip": "Expensify.Web\\Views\\ExpenseForms\\Edit.cshtml",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAJMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T10:58:00.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Views\\ExpenseForms\\Add.cshtml",
+              "RelativeDocumentMoniker": "Expensify.Web\\Views\\ExpenseForms\\Add.cshtml",
+              "ToolTip": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Views\\ExpenseForms\\Add.cshtml",
+              "RelativeToolTip": "Expensify.Web\\Views\\ExpenseForms\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T10:22:56.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExpenseFormsController.cs",
+              "DocumentMoniker": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Controllers\\ExpenseFormsController.cs",
+              "RelativeDocumentMoniker": "Expensify.Web\\Controllers\\ExpenseFormsController.cs",
+              "ToolTip": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Controllers\\ExpenseFormsController.cs",
+              "RelativeToolTip": "Expensify.Web\\Controllers\\ExpenseFormsController.cs",
+              "ViewState": "AgIAAIABAAAAAAAAAAAwwJgBAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T10:19:38.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExpenseTypeSummary.cshtml",
+              "DocumentMoniker": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Views\\Admin\\ExpenseTypeSummary.cshtml",
+              "RelativeDocumentMoniker": "Expensify.Web\\Views\\Admin\\ExpenseTypeSummary.cshtml",
+              "ToolTip": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Views\\Admin\\ExpenseTypeSummary.cshtml",
+              "RelativeToolTip": "Expensify.Web\\Views\\Admin\\ExpenseTypeSummary.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T08:43:45.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Repositories\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "Expensify.Web\\Repositories\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Repositories\\AdminRepository.cs",
+              "RelativeToolTip": "Expensify.Web\\Repositories\\AdminRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T08:37:23.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Expensify.Web\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Expensify.Web\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T19:36:38.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExpenseFormHistory.cshtml",
+              "DocumentMoniker": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Views\\Admin\\ExpenseFormHistory.cshtml",
+              "RelativeDocumentMoniker": "Expensify.Web\\Views\\Admin\\ExpenseFormHistory.cshtml",
+              "ToolTip": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Views\\Admin\\ExpenseFormHistory.cshtml",
+              "RelativeToolTip": "Expensify.Web\\Views\\Admin\\ExpenseFormHistory.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAFwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T08:26:42.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminReportViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Models\\ViewModels\\AdminReportViewModel.cs",
+              "RelativeDocumentMoniker": "Expensify.Web\\Models\\ViewModels\\AdminReportViewModel.cs",
+              "ToolTip": "C:\\Users\\fatih.celik\\OneDrive - VERIPARK\\Desktop\\Expensify\\Expensify\\Expensify.Web\\Models\\ViewModels\\AdminReportViewModel.cs",
+              "RelativeToolTip": "Expensify.Web\\Models\\ViewModels\\AdminReportViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T08:36:57.358Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
